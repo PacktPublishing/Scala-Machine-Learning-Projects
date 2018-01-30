@@ -1,0 +1,105 @@
+log4j:WARN No appenders could be found for logger (MXNetJVM).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Iter 1500, Batch Loss = 1.189168, Accuracy = 0.14266667
+TEST SET DISPLAY STEP:  Batch Loss = 1.064534, Accuracy = 0.23447573
+Iter 15000, Batch Loss = 0.479527, Accuracy = 0.53866667
+TEST SET DISPLAY STEP:  Batch Loss = 0.555004, Accuracy = 0.5198507
+Iter 30000, Batch Loss = 0.293270, Accuracy = 0.83933336
+TEST SET DISPLAY STEP:  Batch Loss = 0.324852, Accuracy = 0.70885646
+Iter 45000, Batch Loss = 0.192152, Accuracy = 0.78933334
+TEST SET DISPLAY STEP:  Batch Loss = 0.206599, Accuracy = 0.8079403
+Iter 60000, Batch Loss = 0.118560, Accuracy = 0.9173333
+TEST SET DISPLAY STEP:  Batch Loss = 0.137014, Accuracy = 0.8764846
+Iter 75000, Batch Loss = 0.081408, Accuracy = 0.9486667
+TEST SET DISPLAY STEP:  Batch Loss = 0.106920, Accuracy = 0.9002375
+Iter 90000, Batch Loss = 0.109803, Accuracy = 0.9266667
+TEST SET DISPLAY STEP:  Batch Loss = 0.104222, Accuracy = 0.9127927
+Iter 105000, Batch Loss = 0.095064, Accuracy = 0.924
+TEST SET DISPLAY STEP:  Batch Loss = 0.092778, Accuracy = 0.91584665
+Iter 120000, Batch Loss = 0.087000, Accuracy = 0.9533333
+TEST SET DISPLAY STEP:  Batch Loss = 0.083532, Accuracy = 0.9216152
+Iter 135000, Batch Loss = 0.085708, Accuracy = 0.966
+TEST SET DISPLAY STEP:  Batch Loss = 0.077003, Accuracy = 0.9226332
+Iter 150000, Batch Loss = 0.068692, Accuracy = 0.9573333
+TEST SET DISPLAY STEP:  Batch Loss = 0.072305, Accuracy = 0.9267051
+Iter 165000, Batch Loss = 0.070618, Accuracy = 0.906
+TEST SET DISPLAY STEP:  Batch Loss = 0.068893, Accuracy = 0.91720396
+Iter 180000, Batch Loss = 0.089659, Accuracy = 0.908
+TEST SET DISPLAY STEP:  Batch Loss = 0.076330, Accuracy = 0.9185612
+Iter 195000, Batch Loss = 0.088301, Accuracy = 0.87333333
+TEST SET DISPLAY STEP:  Batch Loss = 0.087834, Accuracy = 0.8890397
+Iter 210000, Batch Loss = 0.067824, Accuracy = 0.9026667
+TEST SET DISPLAY STEP:  Batch Loss = 0.070262, Accuracy = 0.9229725
+Iter 225000, Batch Loss = 0.060650, Accuracy = 0.9033333
+TEST SET DISPLAY STEP:  Batch Loss = 0.073249, Accuracy = 0.92602646
+Iter 240000, Batch Loss = 0.045368, Accuracy = 0.93733335
+TEST SET DISPLAY STEP:  Batch Loss = 0.069448, Accuracy = 0.9345097
+Iter 255000, Batch Loss = 0.049854, Accuracy = 0.96
+TEST SET DISPLAY STEP:  Batch Loss = 0.069832, Accuracy = 0.93281305
+Iter 270000, Batch Loss = 0.062839, Accuracy = 0.968
+TEST SET DISPLAY STEP:  Batch Loss = 0.064456, Accuracy = 0.9375636
+Iter 285000, Batch Loss = 0.052522, Accuracy = 0.986
+TEST SET DISPLAY STEP:  Batch Loss = 0.065660, Accuracy = 0.934849
+Iter 300000, Batch Loss = 0.060304, Accuracy = 0.98733336
+TEST SET DISPLAY STEP:  Batch Loss = 0.063325, Accuracy = 0.92840177
+Iter 315000, Batch Loss = 0.049382, Accuracy = 0.9993333
+TEST SET DISPLAY STEP:  Batch Loss = 0.062649, Accuracy = 0.9385816
+Iter 330000, Batch Loss = 0.052441, Accuracy = 0.9766667
+TEST SET DISPLAY STEP:  Batch Loss = 0.074270, Accuracy = 0.9324737
+Iter 345000, Batch Loss = 0.050224, Accuracy = 0.9546667
+TEST SET DISPLAY STEP:  Batch Loss = 0.069873, Accuracy = 0.9243298
+Iter 360000, Batch Loss = 0.057141, Accuracy = 0.9306667
+TEST SET DISPLAY STEP:  Batch Loss = 0.074936, Accuracy = 0.91890055
+Iter 375000, Batch Loss = 0.047664, Accuracy = 0.938
+TEST SET DISPLAY STEP:  Batch Loss = 0.065859, Accuracy = 0.9138107
+Iter 390000, Batch Loss = 0.047909, Accuracy = 0.93333334
+TEST SET DISPLAY STEP:  Batch Loss = 0.077047, Accuracy = 0.912114
+Iter 405000, Batch Loss = 0.043014, Accuracy = 0.9533333
+TEST SET DISPLAY STEP:  Batch Loss = 0.069186, Accuracy = 0.90566677
+Iter 420000, Batch Loss = 0.054124, Accuracy = 0.952
+TEST SET DISPLAY STEP:  Batch Loss = 0.059815, Accuracy = 0.93043774
+Iter 435000, Batch Loss = 0.044272, Accuracy = 0.95133334
+TEST SET DISPLAY STEP:  Batch Loss = 0.064162, Accuracy = 0.9192399
+Iter 450000, Batch Loss = 0.058916, Accuracy = 0.96066666
+TEST SET DISPLAY STEP:  Batch Loss = 0.063574, Accuracy = 0.9307771
+Iter 465000, Batch Loss = 0.072512, Accuracy = 0.9486667
+TEST SET DISPLAY STEP:  Batch Loss = 0.060209, Accuracy = 0.9229725
+Iter 480000, Batch Loss = 0.080431, Accuracy = 0.94733334
+TEST SET DISPLAY STEP:  Batch Loss = 0.062598, Accuracy = 0.9290804
+Iter 495000, Batch Loss = 0.072193, Accuracy = 0.9726667
+TEST SET DISPLAY STEP:  Batch Loss = 0.062686, Accuracy = 0.9311164
+Iter 510000, Batch Loss = 0.068242, Accuracy = 0.972
+TEST SET DISPLAY STEP:  Batch Loss = 0.059543, Accuracy = 0.9250085
+Iter 525000, Batch Loss = 0.057797, Accuracy = 0.964
+TEST SET DISPLAY STEP:  Batch Loss = 0.059646, Accuracy = 0.9263658
+Iter 540000, Batch Loss = 0.063531, Accuracy = 0.918
+TEST SET DISPLAY STEP:  Batch Loss = 0.062546, Accuracy = 0.92941976
+Iter 555000, Batch Loss = 0.068177, Accuracy = 0.9126667
+TEST SET DISPLAY STEP:  Batch Loss = 0.061765, Accuracy = 0.9263658
+Iter 570000, Batch Loss = 0.053257, Accuracy = 0.9206667
+TEST SET DISPLAY STEP:  Batch Loss = 0.063814, Accuracy = 0.9307771
+Iter 585000, Batch Loss = 0.058263, Accuracy = 0.9113333
+TEST SET DISPLAY STEP:  Batch Loss = 0.062560, Accuracy = 0.9324737
+Iter 600000, Batch Loss = 0.054180, Accuracy = 0.90466666
+TEST SET DISPLAY STEP:  Batch Loss = 0.061307, Accuracy = 0.93518835
+Iter 615000, Batch Loss = 0.051008, Accuracy = 0.944
+TEST SET DISPLAY STEP:  Batch Loss = 0.061102, Accuracy = 0.93281305
+Iter 630000, Batch Loss = 0.051554, Accuracy = 0.966
+TEST SET DISPLAY STEP:  Batch Loss = 0.054946, Accuracy = 0.9375636
+Iter 645000, Batch Loss = 0.059238, Accuracy = 0.9686667
+TEST SET DISPLAY STEP:  Batch Loss = 0.054461, Accuracy = 0.9365456
+Iter 660000, Batch Loss = 0.051297, Accuracy = 0.9713333
+TEST SET DISPLAY STEP:  Batch Loss = 0.050856, Accuracy = 0.9290804
+Iter 675000, Batch Loss = 0.052069, Accuracy = 0.984
+TEST SET DISPLAY STEP:  Batch Loss = 0.050600, Accuracy = 0.9334917
+Iter 690000, Batch Loss = 0.040501, Accuracy = 0.998
+TEST SET DISPLAY STEP:  Batch Loss = 0.057579, Accuracy = 0.9277231
+Iter 705000, Batch Loss = 0.053661, Accuracy = 0.96066666
+TEST SET DISPLAY STEP:  Batch Loss = 0.062409, Accuracy = 0.9324737
+Iter 720000, Batch Loss = 0.037088, Accuracy = 0.958
+TEST SET DISPLAY STEP:  Batch Loss = 0.050926, Accuracy = 0.9409569
+Iter 735000, Batch Loss = 0.039404, Accuracy = 0.9533333
+TEST SET DISPLAY STEP:  Batch Loss = 0.054567, Accuracy = 0.94027823
+FINAL RESULT: Batch Loss= 0.0545671, Accuracy= 0.94027823
+Done

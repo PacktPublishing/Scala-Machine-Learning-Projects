@@ -1,0 +1,89 @@
+10-30 12:43:51.875 192.168.231.1:54323   9436   #r thread INFO: Cannot initialize XGBoost backend! Xgboost (enabled GPUs) needs: 
+10-30 12:43:51.875 192.168.231.1:54323   9436   #r thread INFO:   - CUDA 8.0
+10-30 12:43:51.875 192.168.231.1:54323   9436   #r thread INFO: XGboost (minimal version) needs: 
+10-30 12:43:51.875 192.168.231.1:54323   9436   #r thread INFO:   - GCC 4.7+
+10-30 12:43:51.875 192.168.231.1:54323   9436   #r thread INFO: For more details, run in debug mode: `java -Dlog4j.configuration=file:///tmp/log4j.properties -jar h2o.jar`
+10-30 12:43:51.911 192.168.231.1:54323   9436   #r thread INFO: ----- H2O started  -----
+10-30 12:43:51.912 192.168.231.1:54323   9436   #r thread INFO: Build git branch: rel-weierstrass
+10-30 12:43:51.912 192.168.231.1:54323   9436   #r thread INFO: Build git hash: f1f65fe382ac4a0dc4631b9ee1468eb8eef7b27e
+10-30 12:43:51.912 192.168.231.1:54323   9436   #r thread INFO: Build git describe: jenkins-3.14.0.6-6-gf1f65fe38
+10-30 12:43:51.912 192.168.231.1:54323   9436   #r thread INFO: Build project version: 3.14.0.7 (latest version: 3.14.0.7)
+10-30 12:43:51.912 192.168.231.1:54323   9436   #r thread INFO: Build age: 9 days
+10-30 12:43:51.912 192.168.231.1:54323   9436   #r thread INFO: Built by: 'jenkins'
+10-30 12:43:51.912 192.168.231.1:54323   9436   #r thread INFO: Built on: '2017-10-20 18:37:17'
+10-30 12:43:51.912 192.168.231.1:54323   9436   #r thread INFO: Watchdog Build git branch: (unknown)
+10-30 12:43:51.912 192.168.231.1:54323   9436   #r thread INFO: Watchdog Build git hash: (unknown)
+10-30 12:43:51.912 192.168.231.1:54323   9436   #r thread INFO: Watchdog Build git describe: (unknown)
+10-30 12:43:51.912 192.168.231.1:54323   9436   #r thread INFO: Watchdog Build project version: (unknown)
+10-30 12:43:51.912 192.168.231.1:54323   9436   #r thread INFO: Watchdog Built by: (unknown)
+10-30 12:43:51.912 192.168.231.1:54323   9436   #r thread INFO: Watchdog Built on: (unknown)
+10-30 12:43:51.912 192.168.231.1:54323   9436   #r thread INFO: Processed H2O arguments: [-name, sparkling-water-admin-karim_local-1509363823387, -ga_opt_out, -log_level, INFO, -baseport, 54321, -ip, 192.168.231.1, -log_dir, C:\Users\admin-karim\Downloads\WS\com.packt.ScalaML.FraudDetection\h2ologs\local-1509363823387]
+10-30 12:43:51.912 192.168.231.1:54323   9436   #r thread INFO: Java availableProcessors: 8
+10-30 12:43:51.912 192.168.231.1:54323   9436   #r thread INFO: Java heap totalMemory: 951.0 MB
+10-30 12:43:51.912 192.168.231.1:54323   9436   #r thread INFO: Java heap maxMemory: 7.01 GB
+10-30 12:43:51.912 192.168.231.1:54323   9436   #r thread INFO: Java version: Java 1.8.0_131 (from Oracle Corporation)
+10-30 12:43:51.912 192.168.231.1:54323   9436   #r thread INFO: JVM launch parameters: [-Dfile.encoding=UTF-8, -Xbootclasspath/p:C:\Users\admin-karim\.p2\pool\plugins\org.scala-ide.scala211.jars_4.6.1.201706090853\target\jars\scala-library.jar;C:\Users\admin-karim\.p2\pool\plugins\org.scala-ide.scala211.jars_4.6.1.201706090853\target\jars\scala-reflect.jar]
+10-30 12:43:51.912 192.168.231.1:54323   9436   #r thread INFO: OS version: Windows 10 10.0 (amd64)
+10-30 12:43:51.913 192.168.231.1:54323   9436   #r thread INFO: Machine physical memory: 31.54 GB
+10-30 12:43:51.913 192.168.231.1:54323   9436   #r thread INFO: X-h2o-cluster-id: 1509363831208
+10-30 12:43:51.913 192.168.231.1:54323   9436   #r thread INFO: User name: 'admin-karim'
+10-30 12:43:51.913 192.168.231.1:54323   9436   #r thread INFO: Opted out of sending usage metrics.
+10-30 12:43:51.913 192.168.231.1:54323   9436   #r thread INFO: IPv6 stack selected: false
+10-30 12:43:51.913 192.168.231.1:54323   9436   #r thread INFO: Possible IP Address: lo (Software Loopback Interface 1), 127.0.0.1
+10-30 12:43:51.913 192.168.231.1:54323   9436   #r thread INFO: Possible IP Address: lo (Software Loopback Interface 1), 0:0:0:0:0:0:0:1
+10-30 12:43:51.913 192.168.231.1:54323   9436   #r thread INFO: Network interface is down: name:eth0 (Realtek USB GbE Family Controller)
+10-30 12:43:51.913 192.168.231.1:54323   9436   #r thread INFO: Network interface is down: name:eth1 (WAN Miniport (IPv6))
+10-30 12:43:51.913 192.168.231.1:54323   9436   #r thread INFO: Network interface is down: name:net0 (WAN Miniport (IKEv2))
+10-30 12:43:51.913 192.168.231.1:54323   9436   #r thread INFO: Network interface is down: name:net1 (WAN Miniport (L2TP))
+10-30 12:43:51.913 192.168.231.1:54323   9436   #r thread INFO: Possible IP Address: wlan0 (Killer Wireless-n/a/ac 1535 Wireless Network Adapter), 134.61.83.56
+10-30 12:43:51.913 192.168.231.1:54323   9436   #r thread INFO: Possible IP Address: wlan0 (Killer Wireless-n/a/ac 1535 Wireless Network Adapter), fe80:0:0:0:5902:139f:de8c:3b20%wlan0
+10-30 12:43:51.913 192.168.231.1:54323   9436   #r thread INFO: Network interface is down: name:eth2 (WAN Miniport (IP))
+10-30 12:43:51.913 192.168.231.1:54323   9436   #r thread INFO: Network interface is down: name:wlan1 (Microsoft Wi-Fi Direct Virtual Adapter #2)
+10-30 12:43:51.913 192.168.231.1:54323   9436   #r thread INFO: Network interface is down: name:ppp0 (WAN Miniport (PPPOE))
+10-30 12:43:51.913 192.168.231.1:54323   9436   #r thread INFO: Network interface is down: name:eth3 (Microsoft Kernel Debug Network Adapter)
+10-30 12:43:51.913 192.168.231.1:54323   9436   #r thread INFO: Network interface is down: name:wlan2 (Microsoft Wi-Fi Direct Virtual Adapter)
+10-30 12:43:51.913 192.168.231.1:54323   9436   #r thread INFO: Possible IP Address: net2 (Microsoft Teredo Tunneling Adapter), 2001:0:9d38:78cf:3c98:2b87:79c2:acc7
+10-30 12:43:51.913 192.168.231.1:54323   9436   #r thread INFO: Possible IP Address: net2 (Microsoft Teredo Tunneling Adapter), fe80:0:0:0:3c98:2b87:79c2:acc7%net2
+10-30 12:43:51.913 192.168.231.1:54323   9436   #r thread INFO: Possible IP Address: eth4 (VMware Virtual Ethernet Adapter for VMnet8), 192.168.231.1
+10-30 12:43:51.913 192.168.231.1:54323   9436   #r thread INFO: Possible IP Address: eth4 (VMware Virtual Ethernet Adapter for VMnet8), fe80:0:0:0:f451:26d5:2a94:8290%eth4
+10-30 12:43:51.913 192.168.231.1:54323   9436   #r thread INFO: Network interface is down: name:net3 (WAN Miniport (PPTP))
+10-30 12:43:51.914 192.168.231.1:54323   9436   #r thread INFO: Network interface is down: name:eth5 (WAN Miniport (Network Monitor))
+10-30 12:43:51.914 192.168.231.1:54323   9436   #r thread INFO: Possible IP Address: eth6 (VMware Virtual Ethernet Adapter for VMnet1), 192.168.236.1
+10-30 12:43:51.914 192.168.231.1:54323   9436   #r thread INFO: Possible IP Address: eth6 (VMware Virtual Ethernet Adapter for VMnet1), fe80:0:0:0:f012:91c6:8c53:e36b%eth6
+10-30 12:43:51.914 192.168.231.1:54323   9436   #r thread INFO: Network interface is down: name:eth7 (Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64)
+10-30 12:43:51.914 192.168.231.1:54323   9436   #r thread INFO: Network interface is down: name:net4 (WAN Miniport (SSTP))
+10-30 12:43:51.914 192.168.231.1:54323   9436   #r thread INFO: Network interface is down: name:wlan3 (Killer Wireless-n/a/ac 1535 Wireless Network Adapter-WFP Native MAC Layer LightWeight Filter-0000)
+10-30 12:43:51.914 192.168.231.1:54323   9436   #r thread INFO: Network interface is down: name:wlan4 (Killer Wireless-n/a/ac 1535 Wireless Network Adapter-Virtual WiFi Filter Driver-0000)
+10-30 12:43:51.914 192.168.231.1:54323   9436   #r thread INFO: Network interface is down: name:wlan5 (Killer Wireless-n/a/ac 1535 Wireless Network Adapter-Native WiFi Filter Driver-0000)
+10-30 12:43:51.914 192.168.231.1:54323   9436   #r thread INFO: Network interface is down: name:wlan6 (Killer Wireless-n/a/ac 1535 Wireless Network Adapter-QoS Packet Scheduler-0000)
+10-30 12:43:51.914 192.168.231.1:54323   9436   #r thread INFO: Network interface is down: name:wlan7 (Killer Wireless-n/a/ac 1535 Wireless Network Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000)
+10-30 12:43:51.914 192.168.231.1:54323   9436   #r thread INFO: Network interface is down: name:wlan8 (Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000)
+10-30 12:43:51.914 192.168.231.1:54323   9436   #r thread INFO: Network interface is down: name:wlan9 (Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000)
+10-30 12:43:51.914 192.168.231.1:54323   9436   #r thread INFO: Network interface is down: name:wlan10 (Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000)
+10-30 12:43:51.914 192.168.231.1:54323   9436   #r thread INFO: Network interface is down: name:wlan11 (Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000)
+10-30 12:43:51.914 192.168.231.1:54323   9436   #r thread INFO: H2O node running in unencrypted mode.
+10-30 12:43:51.916 192.168.231.1:54323   9436   #r thread INFO: Internal communication uses port: 54324
+10-30 12:43:51.916 192.168.231.1:54323   9436   #r thread INFO: Listening for HTTP and REST traffic on http://192.168.231.1:54323/
+10-30 12:43:51.970 192.168.231.1:54323   9436   #r thread INFO: H2O cloud name: 'sparkling-water-admin-karim_local-1509363823387' on /192.168.231.1:54323, discovery address /229.159.183.173:58783
+10-30 12:43:51.970 192.168.231.1:54323   9436   #r thread INFO: If you have trouble connecting, try SSH tunneling from your local machine (e.g., via port 55555):
+10-30 12:43:51.970 192.168.231.1:54323   9436   #r thread INFO:   1. Open a terminal and run 'ssh -L 55555:localhost:54323 admin-karim@192.168.231.1'
+10-30 12:43:51.970 192.168.231.1:54323   9436   #r thread INFO:   2. Point your browser to http://localhost:55555
+10-30 12:43:51.990 192.168.231.1:54323   9436   #r thread INFO: Log dir: 'C:\Users\admin-karim\Downloads\WS\com.packt.ScalaML.FraudDetection\h2ologs\local-1509363823387'
+10-30 12:43:51.991 192.168.231.1:54323   9436   #r thread INFO: Cur dir: 'C:\Users\admin-karim\Downloads\WS\com.packt.ScalaML.FraudDetection'
+10-30 12:43:51.997 192.168.231.1:54323   9436   #r thread INFO: Using HDFS configuration from C:/Users/admin-karim/Downloads/spark-2.1.0-bin-hadoop2.7/conf
+10-30 12:43:51.997 192.168.231.1:54323   9436   #r thread INFO: HDFS subsystem successfully initialized
+10-30 12:43:52.003 192.168.231.1:54323   9436   #r thread INFO: S3 subsystem successfully initialized
+10-30 12:43:52.003 192.168.231.1:54323   9436   #r thread INFO: Flow dir: 'C:/Users/admin-karim/h2oflows'
+10-30 12:43:52.011 192.168.231.1:54323   9436   #r thread INFO: Cloud of size 1 formed [/192.168.231.1:54323]
+10-30 12:43:52.027 192.168.231.1:54323   9436   #r thread INFO: Registered parsers: [GUESS, ARFF, XLS, SVMLight, AVRO, ORC, PARQUET, CSV]
+10-30 12:43:52.027 192.168.231.1:54323   9436   #r thread INFO: Watchdog extension initialized
+10-30 12:43:52.028 192.168.231.1:54323   9436   #r thread INFO: Registered 1 core extensions in: 13ms
+10-30 12:43:52.028 192.168.231.1:54323   9436   #r thread INFO: Registered H2O core extensions: [Watchdog]
+10-30 12:43:52.304 192.168.231.1:54323   9436   #r thread INFO: Registered: 158 REST APIs in: 276ms
+10-30 12:43:52.304 192.168.231.1:54323   9436   #r thread INFO: Registered REST API extensions: [Algos, AutoML, Core V3, Core V4]
+10-30 12:43:52.396 192.168.231.1:54323   9436   #r thread INFO: Registered: 242 schemas in 92ms
+10-30 12:43:52.396 192.168.231.1:54323   9436   #r thread INFO: H2O started in 1043ms
+10-30 12:43:52.396 192.168.231.1:54323   9436   #r thread INFO: 
+10-30 12:43:52.396 192.168.231.1:54323   9436   #r thread INFO: Open H2O Flow in your web browser: http://192.168.231.1:54323
+10-30 12:43:52.396 192.168.231.1:54323   9436   #r thread INFO: 
+10-30 12:44:00.354 192.168.231.1:54323   9436   main      INFO: Locking cloud to new members, because water.Lockable

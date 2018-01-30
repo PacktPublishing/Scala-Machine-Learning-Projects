@@ -1,0 +1,1115 @@
+10-30 13:58:21.807 192.168.231.1:54321   10820  #r thread INFO: Cannot initialize XGBoost backend! Xgboost (enabled GPUs) needs: 
+10-30 13:58:21.807 192.168.231.1:54321   10820  #r thread INFO:   - CUDA 8.0
+10-30 13:58:21.807 192.168.231.1:54321   10820  #r thread INFO: XGboost (minimal version) needs: 
+10-30 13:58:21.807 192.168.231.1:54321   10820  #r thread INFO:   - GCC 4.7+
+10-30 13:58:21.807 192.168.231.1:54321   10820  #r thread INFO: For more details, run in debug mode: `java -Dlog4j.configuration=file:///tmp/log4j.properties -jar h2o.jar`
+10-30 13:58:21.842 192.168.231.1:54321   10820  #r thread INFO: ----- H2O started  -----
+10-30 13:58:21.842 192.168.231.1:54321   10820  #r thread INFO: Build git branch: rel-weierstrass
+10-30 13:58:21.842 192.168.231.1:54321   10820  #r thread INFO: Build git hash: f1f65fe382ac4a0dc4631b9ee1468eb8eef7b27e
+10-30 13:58:21.842 192.168.231.1:54321   10820  #r thread INFO: Build git describe: jenkins-3.14.0.6-6-gf1f65fe38
+10-30 13:58:21.842 192.168.231.1:54321   10820  #r thread INFO: Build project version: 3.14.0.7 (latest version: unknown)
+10-30 13:58:21.842 192.168.231.1:54321   10820  #r thread INFO: Build age: 9 days
+10-30 13:58:21.842 192.168.231.1:54321   10820  #r thread INFO: Built by: 'jenkins'
+10-30 13:58:21.842 192.168.231.1:54321   10820  #r thread INFO: Built on: '2017-10-20 18:37:17'
+10-30 13:58:21.842 192.168.231.1:54321   10820  #r thread INFO: Watchdog Build git branch: (unknown)
+10-30 13:58:21.842 192.168.231.1:54321   10820  #r thread INFO: Watchdog Build git hash: (unknown)
+10-30 13:58:21.843 192.168.231.1:54321   10820  #r thread INFO: Watchdog Build git describe: (unknown)
+10-30 13:58:21.843 192.168.231.1:54321   10820  #r thread INFO: Watchdog Build project version: (unknown)
+10-30 13:58:21.843 192.168.231.1:54321   10820  #r thread INFO: Watchdog Built by: (unknown)
+10-30 13:58:21.843 192.168.231.1:54321   10820  #r thread INFO: Watchdog Built on: (unknown)
+10-30 13:58:21.843 192.168.231.1:54321   10820  #r thread INFO: Processed H2O arguments: [-name, sparkling-water-admin-karim_local-1509368292618, -ga_opt_out, -log_level, INFO, -baseport, 54321, -ip, 192.168.231.1, -log_dir, C:\Users\admin-karim\Downloads\WS\com.packt.ScalaML.FraudDetection\h2ologs\local-1509368292618]
+10-30 13:58:21.843 192.168.231.1:54321   10820  #r thread INFO: Java availableProcessors: 8
+10-30 13:58:21.843 192.168.231.1:54321   10820  #r thread INFO: Java heap totalMemory: 1.05 GB
+10-30 13:58:21.843 192.168.231.1:54321   10820  #r thread INFO: Java heap maxMemory: 7.01 GB
+10-30 13:58:21.843 192.168.231.1:54321   10820  #r thread INFO: Java version: Java 1.8.0_131 (from Oracle Corporation)
+10-30 13:58:21.843 192.168.231.1:54321   10820  #r thread INFO: JVM launch parameters: [-Dfile.encoding=UTF-8, -Xbootclasspath/p:C:\Users\admin-karim\.p2\pool\plugins\org.scala-ide.scala211.jars_4.6.1.201706090853\target\jars\scala-library.jar;C:\Users\admin-karim\.p2\pool\plugins\org.scala-ide.scala211.jars_4.6.1.201706090853\target\jars\scala-reflect.jar]
+10-30 13:58:21.843 192.168.231.1:54321   10820  #r thread INFO: OS version: Windows 10 10.0 (amd64)
+10-30 13:58:21.843 192.168.231.1:54321   10820  #r thread INFO: Machine physical memory: 31.54 GB
+10-30 13:58:21.843 192.168.231.1:54321   10820  #r thread INFO: X-h2o-cluster-id: 1509368300297
+10-30 13:58:21.843 192.168.231.1:54321   10820  #r thread INFO: User name: 'admin-karim'
+10-30 13:58:21.843 192.168.231.1:54321   10820  #r thread INFO: Opted out of sending usage metrics.
+10-30 13:58:21.843 192.168.231.1:54321   10820  #r thread INFO: IPv6 stack selected: false
+10-30 13:58:21.843 192.168.231.1:54321   10820  #r thread INFO: Possible IP Address: lo (Software Loopback Interface 1), 127.0.0.1
+10-30 13:58:21.844 192.168.231.1:54321   10820  #r thread INFO: Possible IP Address: lo (Software Loopback Interface 1), 0:0:0:0:0:0:0:1
+10-30 13:58:21.844 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:eth0 (Realtek USB GbE Family Controller)
+10-30 13:58:21.844 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:eth1 (WAN Miniport (IPv6))
+10-30 13:58:21.844 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:net0 (WAN Miniport (IKEv2))
+10-30 13:58:21.844 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:net1 (WAN Miniport (L2TP))
+10-30 13:58:21.844 192.168.231.1:54321   10820  #r thread INFO: Possible IP Address: wlan0 (Killer Wireless-n/a/ac 1535 Wireless Network Adapter), 134.61.83.56
+10-30 13:58:21.844 192.168.231.1:54321   10820  #r thread INFO: Possible IP Address: wlan0 (Killer Wireless-n/a/ac 1535 Wireless Network Adapter), fe80:0:0:0:5902:139f:de8c:3b20%wlan0
+10-30 13:58:21.844 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:eth2 (WAN Miniport (IP))
+10-30 13:58:21.844 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:wlan1 (Microsoft Wi-Fi Direct Virtual Adapter #2)
+10-30 13:58:21.844 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:ppp0 (WAN Miniport (PPPOE))
+10-30 13:58:21.844 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:eth3 (Microsoft Kernel Debug Network Adapter)
+10-30 13:58:21.844 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:wlan2 (Microsoft Wi-Fi Direct Virtual Adapter)
+10-30 13:58:21.844 192.168.231.1:54321   10820  #r thread INFO: Possible IP Address: net2 (Microsoft Teredo Tunneling Adapter), 2001:0:9d38:78cf:1879:13cf:79c2:acc7
+10-30 13:58:21.844 192.168.231.1:54321   10820  #r thread INFO: Possible IP Address: net2 (Microsoft Teredo Tunneling Adapter), fe80:0:0:0:1879:13cf:79c2:acc7%net2
+10-30 13:58:21.844 192.168.231.1:54321   10820  #r thread INFO: Possible IP Address: eth4 (VMware Virtual Ethernet Adapter for VMnet8), 192.168.231.1
+10-30 13:58:21.844 192.168.231.1:54321   10820  #r thread INFO: Possible IP Address: eth4 (VMware Virtual Ethernet Adapter for VMnet8), fe80:0:0:0:f451:26d5:2a94:8290%eth4
+10-30 13:58:21.844 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:net3 (WAN Miniport (PPTP))
+10-30 13:58:21.845 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:eth5 (WAN Miniport (Network Monitor))
+10-30 13:58:21.845 192.168.231.1:54321   10820  #r thread INFO: Possible IP Address: eth6 (VMware Virtual Ethernet Adapter for VMnet1), 192.168.236.1
+10-30 13:58:21.845 192.168.231.1:54321   10820  #r thread INFO: Possible IP Address: eth6 (VMware Virtual Ethernet Adapter for VMnet1), fe80:0:0:0:f012:91c6:8c53:e36b%eth6
+10-30 13:58:21.845 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:eth7 (Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64)
+10-30 13:58:21.845 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:net4 (WAN Miniport (SSTP))
+10-30 13:58:21.845 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:wlan3 (Killer Wireless-n/a/ac 1535 Wireless Network Adapter-WFP Native MAC Layer LightWeight Filter-0000)
+10-30 13:58:21.845 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:wlan4 (Killer Wireless-n/a/ac 1535 Wireless Network Adapter-Virtual WiFi Filter Driver-0000)
+10-30 13:58:21.845 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:wlan5 (Killer Wireless-n/a/ac 1535 Wireless Network Adapter-Native WiFi Filter Driver-0000)
+10-30 13:58:21.845 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:wlan6 (Killer Wireless-n/a/ac 1535 Wireless Network Adapter-QoS Packet Scheduler-0000)
+10-30 13:58:21.845 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:wlan7 (Killer Wireless-n/a/ac 1535 Wireless Network Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000)
+10-30 13:58:21.845 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:wlan8 (Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000)
+10-30 13:58:21.845 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:wlan9 (Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000)
+10-30 13:58:21.845 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:wlan10 (Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000)
+10-30 13:58:21.845 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:wlan11 (Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000)
+10-30 13:58:21.846 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:eth8 (WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000)
+10-30 13:58:21.846 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:eth9 (WAN Miniport (IP)-QoS Packet Scheduler-0000)
+10-30 13:58:21.846 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:eth10 (WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000)
+10-30 13:58:21.846 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:eth11 (WAN Miniport (IPv6)-QoS Packet Scheduler-0000)
+10-30 13:58:21.846 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:eth12 (WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000)
+10-30 13:58:21.846 192.168.231.1:54321   10820  #r thread INFO: Network interface is down: name:eth13 (WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000)
+10-30 13:58:21.846 192.168.231.1:54321   10820  #r thread INFO: H2O node running in unencrypted mode.
+10-30 13:58:21.848 192.168.231.1:54321   10820  #r thread INFO: Internal communication uses port: 54322
+10-30 13:58:21.848 192.168.231.1:54321   10820  #r thread INFO: Listening for HTTP and REST traffic on http://192.168.231.1:54321/
+10-30 13:58:21.919 192.168.231.1:54321   10820  #r thread INFO: H2O cloud name: 'sparkling-water-admin-karim_local-1509368292618' on /192.168.231.1:54321, discovery address /228.68.6.203:58436
+10-30 13:58:21.919 192.168.231.1:54321   10820  #r thread INFO: If you have trouble connecting, try SSH tunneling from your local machine (e.g., via port 55555):
+10-30 13:58:21.919 192.168.231.1:54321   10820  #r thread INFO:   1. Open a terminal and run 'ssh -L 55555:localhost:54321 admin-karim@192.168.231.1'
+10-30 13:58:21.919 192.168.231.1:54321   10820  #r thread INFO:   2. Point your browser to http://localhost:55555
+10-30 13:58:21.946 192.168.231.1:54321   10820  #r thread INFO: Log dir: 'C:\Users\admin-karim\Downloads\WS\com.packt.ScalaML.FraudDetection\h2ologs\local-1509368292618'
+10-30 13:58:21.946 192.168.231.1:54321   10820  #r thread INFO: Cur dir: 'C:\Users\admin-karim\Downloads\WS\com.packt.ScalaML.FraudDetection'
+10-30 13:58:21.952 192.168.231.1:54321   10820  #r thread INFO: Using HDFS configuration from C:/Users/admin-karim/Downloads/spark-2.1.0-bin-hadoop2.7/conf
+10-30 13:58:21.953 192.168.231.1:54321   10820  #r thread INFO: HDFS subsystem successfully initialized
+10-30 13:58:21.964 192.168.231.1:54321   10820  #r thread INFO: S3 subsystem successfully initialized
+10-30 13:58:21.964 192.168.231.1:54321   10820  #r thread INFO: Flow dir: 'C:/Users/admin-karim/h2oflows'
+10-30 13:58:21.976 192.168.231.1:54321   10820  #r thread INFO: Cloud of size 1 formed [/192.168.231.1:54321]
+10-30 13:58:22.000 192.168.231.1:54321   10820  #r thread INFO: Registered parsers: [GUESS, ARFF, XLS, SVMLight, AVRO, ORC, PARQUET, CSV]
+10-30 13:58:22.000 192.168.231.1:54321   10820  #r thread INFO: Watchdog extension initialized
+10-30 13:58:22.000 192.168.231.1:54321   10820  #r thread INFO: Registered 1 core extensions in: 12ms
+10-30 13:58:22.001 192.168.231.1:54321   10820  #r thread INFO: Registered H2O core extensions: [Watchdog]
+10-30 13:58:22.317 192.168.231.1:54321   10820  #r thread INFO: Registered: 158 REST APIs in: 316ms
+10-30 13:58:22.317 192.168.231.1:54321   10820  #r thread INFO: Registered REST API extensions: [Algos, AutoML, Core V3, Core V4]
+10-30 13:58:22.412 192.168.231.1:54321   10820  #r thread INFO: Registered: 242 schemas in 94ms
+10-30 13:58:22.412 192.168.231.1:54321   10820  #r thread INFO: H2O started in 1979ms
+10-30 13:58:22.412 192.168.231.1:54321   10820  #r thread INFO: 
+10-30 13:58:22.413 192.168.231.1:54321   10820  #r thread INFO: Open H2O Flow in your web browser: http://192.168.231.1:54321
+10-30 13:58:22.413 192.168.231.1:54321   10820  #r thread INFO: 
+10-30 13:58:37.436 192.168.231.1:54321   10820  main      INFO: Locking cloud to new members, because water.Lockable
+10-30 13:58:38.283 192.168.231.1:54321   10820  FJ-1-1    INFO: Building H2O DeepLearning model with these parameters:
+10-30 13:58:38.362 192.168.231.1:54321   10820  FJ-1-1    INFO: {"_train":{"name":"train","type":"Key"},"_valid":{"name":"valid","type":"Key"},"_nfolds":0,"_keep_cross_validation_predictions":false,"_keep_cross_validation_fold_assignment":false,"_parallelize_cross_validation":true,"_auto_rebalance":true,"_seed":-1,"_fold_assignment":"AUTO","_categorical_encoding":"AUTO","_max_categorical_levels":10,"_distribution":"AUTO","_tweedie_power":1.5,"_quantile_alpha":0.5,"_huber_alpha":0.9,"_ignored_columns":null,"_ignore_const_cols":true,"_weights_column":null,"_offset_column":null,"_fold_column":null,"_is_cv_model":false,"_score_each_iteration":false,"_max_runtime_secs":0.0,"_stopping_rounds":5,"_stopping_metric":"AUTO","_stopping_tolerance":0.0,"_response_column":"label","_balance_classes":false,"_max_after_balance_size":5.0,"_class_sampling_factors":null,"_max_confusion_matrix_size":20,"_checkpoint":null,"_pretrained_autoencoder":null,"_overwrite_with_best_model":true,"_autoencoder":false,"_use_all_factor_levels":true,"_standardize":true,"_activation":"Rectifier","_hidden":[256,256,256],"_epochs":100.0,"_train_samples_per_iteration":-2,"_target_ratio_comm_to_comp":0.05,"_adaptive_rate":true,"_rho":0.99,"_epsilon":1.0E-8,"_rate":0.005,"_rate_annealing":1.0E-6,"_rate_decay":1.0,"_momentum_start":0.0,"_momentum_ramp":1000000.0,"_momentum_stable":0.0,"_nesterov_accelerated_gradient":true,"_input_dropout_ratio":0.0,"_hidden_dropout_ratios":null,"_l1":0.0,"_l2":0.0,"_max_w2":3.4028235E38,"_initial_weight_distribution":"UniformAdaptive","_initial_weight_scale":1.0,"_initial_weights":null,"_initial_biases":null,"_loss":"Automatic","_score_interval":5.0,"_score_training_samples":10000,"_score_validation_samples":0,"_score_duty_cycle":0.1,"_classification_stop":0.0,"_regression_stop":1.0E-6,"_quiet_mode":false,"_score_validation_sampling":"Uniform","_diagnostics":true,"_variable_importances":true,"_fast_mode":true,"_force_load_balance":true,"_replicate_training_data":true,"_single_node_mode":false,"_shuffle_training_data":false,"_missing_values_handling":"MeanImputation","_sparse":false,"_col_major":false,"_average_activation":0.0,"_sparsity_beta":0.0,"_max_categorical_features":2147483647,"_reproducible":false,"_export_weights_and_biases":false,"_elastic_averaging":false,"_elastic_averaging_moving_rate":0.9,"_elastic_averaging_regularization":0.001,"_mini_batch_size":1}
+10-30 13:58:38.366 192.168.231.1:54321   10820  FJ-1-1    INFO: Rebalancing train dataset into 32 chunks.
+10-30 13:58:38.392 192.168.231.1:54321   10820  FJ-1-1    INFO: Rebalancing valid dataset into 32 chunks.
+10-30 13:58:38.510 192.168.231.1:54321   10820  FJ-1-1    INFO: Building the model on 22 numeric features and 0 (one-hot encoded) categorical features.
+10-30 13:58:38.512 192.168.231.1:54321   10820  FJ-1-1    INFO: _replicate_training_data: Disabling replicate_training_data on 1 node.
+10-30 13:58:38.512 192.168.231.1:54321   10820  FJ-1-1    INFO: _categorical_encoding: Automatically enabling OneHotInternal categorical encoding.
+10-30 13:58:38.512 192.168.231.1:54321   10820  FJ-1-1    INFO: _adaptive_rate: Using automatic learning rate. Ignoring the following input parameters: rate, rate_decay, rate_annealing, momentum_start, momentum_ramp, momentum_stable.
+10-30 13:58:38.612 192.168.231.1:54321   10820  FJ-1-1    INFO: Created random initial model state.
+10-30 13:58:38.613 192.168.231.1:54321   10820  FJ-1-1    INFO: Model category: Regression
+10-30 13:58:38.613 192.168.231.1:54321   10820  FJ-1-1    INFO: Number of model parameters (weights/biases): 137,729
+10-30 13:58:38.616 192.168.231.1:54321   10820  FJ-1-1    INFO: One epoch corresponds to 24712 training data rows.
+10-30 13:58:38.634 192.168.231.1:54321   10820  FJ-1-1    INFO: Number of chunks of the training data: 32
+10-30 13:58:38.634 192.168.231.1:54321   10820  FJ-1-1    INFO: Number of chunks of the validation data: 2
+10-30 13:58:38.664 192.168.231.1:54321   10820  FJ-1-1    INFO: Auto-tuning parameter 'train_samples_per_iteration':
+10-30 13:58:38.664 192.168.231.1:54321   10820  FJ-1-1    INFO: Estimated compute power : 13 GFlops
+10-30 13:58:38.664 192.168.231.1:54321   10820  FJ-1-1    INFO: Estimated time for comm :  10.061 msec
+10-30 13:58:38.664 192.168.231.1:54321   10820  FJ-1-1    INFO: Estimated time per row  :  66 usec
+10-30 13:58:38.664 192.168.231.1:54321   10820  FJ-1-1    INFO: Estimated training speed: 15080 rows/sec
+10-30 13:58:38.664 192.168.231.1:54321   10820  FJ-1-1    INFO: Setting train_samples_per_iteration (-2) to auto-tuned value: 100000
+10-30 13:58:38.667 192.168.231.1:54321   10820  FJ-1-1    INFO: Total setup time:  0.393 sec
+10-30 13:58:38.667 192.168.231.1:54321   10820  FJ-1-1    INFO: Starting to train the Deep Learning model.
+10-30 13:58:51.600 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring the model.
+10-30 13:58:51.610 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 100,003 training samples, mini-batch size 1):
+10-30 13:58:51.610 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 13:58:51.610 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 13:58:51.610 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.082484 0.099355 0.000000    0.006357   0.101217  0.443125 0.041349
+10-30 13:58:51.610 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.065937 0.070682 0.000000   -0.007342   0.064072  0.982082 0.031562
+10-30 13:58:51.610 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.024412 0.076413 0.000000   -0.008930   0.061636  0.981244 0.014844
+10-30 13:58:51.610 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000404 0.000563 0.000000   -0.007465   0.061560 -0.034336 0.000000
+10-30 13:58:52.397 192.168.231.1:54321   10820  FJ-1-1    INFO: Computing variable importances.
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on temporary training frame with 10027 samples
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: train.temporary.sample.40.47%
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.0463372
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.21526077
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.0463372
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.07920903
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.14903878
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on full validation frame
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: valid
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.104506575
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.32327476
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.104506575
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.13671432
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.22205958
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO: Variable Importances:
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:   Variable Relative Importance Scaled Importance Percentage
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  features2            1.000000          1.000000   0.059431
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  features4            0.968092          0.968092   0.057534
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO: features14            0.930601          0.930601   0.055306
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  features3            0.930260          0.930260   0.055286
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  features0            0.894943          0.894943   0.053187
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  features6            0.889478          0.889478   0.052862
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO: features13            0.808906          0.808906   0.048074
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  features5            0.794112          0.794112   0.047195
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  features1            0.783916          0.783916   0.046589
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  features9            0.748563          0.748563   0.044488
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO: ---
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO: features18            0.704023          0.704023   0.041841
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO: features21            0.702600          0.702600   0.041756
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO: features12            0.700376          0.700376   0.041624
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  features7            0.681006          0.681006   0.040473
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO: features20            0.677974          0.677974   0.040292
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO: features17            0.659629          0.659629   0.039202
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO: features19            0.651389          0.651389   0.038713
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO: features16            0.643529          0.643529   0.038245
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO: features15            0.636201          0.636201   0.037810
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  features8            0.590743          0.590743   0.035108
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 100,003 training samples, mini-batch size 1):
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.082484 0.099355 0.000000    0.006357   0.101217  0.443125 0.041349
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.065937 0.070682 0.000000   -0.007342   0.064072  0.982082 0.031562
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.024412 0.076413 0.000000   -0.008930   0.061636  0.981244 0.014844
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000404 0.000563 0.000000   -0.007465   0.061560 -0.034336 0.000000
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring History:
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:            Timestamp   Duration Training Speed  Epochs Iterations       Samples Training RMSE Training Deviance Training MAE Validation RMSE Validation Deviance Validation MAE
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:38  0.000 sec                0.00000          0      0.000000           NaN               NaN          NaN             NaN                 NaN            NaN
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:51 14.167 sec   7767 obs/sec 4.04674          1 100003.000000       0.21526           0.04634      0.07921         0.32327             0.10451        0.13671
+10-30 13:58:52.464 192.168.231.1:54321   10820  FJ-1-1    INFO: Time taken for scoring and diagnostics:  0.900 sec
+10-30 13:58:52.465 192.168.231.1:54321   10820  FJ-1-1    INFO: Training time: 14.193 sec (scoring:  0.900 sec). Processed 100,003 samples (4.047 epochs).
+10-30 13:58:52.465 192.168.231.1:54321   10820  FJ-1-1    INFO: Iterations: 1. Epochs: 4.04674. Speed: 7,752 samples/sec.
+10-30 13:59:02.384 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring the model.
+10-30 13:59:02.388 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 199,993 training samples, mini-batch size 1):
+10-30 13:59:02.388 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 13:59:02.388 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 13:59:02.388 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.104443 0.101194 0.000000    0.010884   0.117155  0.409415 0.058588
+10-30 13:59:02.388 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.093425 0.095524 0.000000   -0.008814   0.067161  0.978688 0.051102
+10-30 13:59:02.388 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.024104 0.068556 0.000000   -0.009697   0.061676  0.979705 0.017839
+10-30 13:59:02.388 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000368 0.000567 0.000000   -0.006927   0.059859  0.026853 0.000000
+10-30 13:59:03.124 192.168.231.1:54321   10820  FJ-1-1    INFO: Computing variable importances.
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on temporary training frame with 10027 samples
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: train.temporary.sample.40.47%
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.04612137
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.21475887
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.04612137
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.087721944
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.14932874
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on full validation frame
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: valid
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.10333296
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.32145444
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.10333296
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.14302677
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.22077246
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO: Variable Importances:
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:   Variable Relative Importance Scaled Importance Percentage
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO: features13            1.000000          1.000000   0.067808
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  features6            0.952730          0.952730   0.064602
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  features3            0.924211          0.924211   0.062668
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  features2            0.844235          0.844235   0.057245
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  features0            0.809484          0.809484   0.054889
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  features4            0.757709          0.757709   0.051378
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO: features14            0.706803          0.706803   0.047927
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  features5            0.691159          0.691159   0.046866
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  features7            0.661973          0.661973   0.044887
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  features9            0.650359          0.650359   0.044099
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO: ---
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO: features12            0.591229          0.591229   0.040090
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  features1            0.576274          0.576274   0.039076
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO: features16            0.571701          0.571701   0.038766
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO: features20            0.562733          0.562733   0.038158
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO: features21            0.562723          0.562723   0.038157
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO: features18            0.548809          0.548809   0.037213
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO: features17            0.543893          0.543893   0.036880
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO: features19            0.541229          0.541229   0.036699
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO: features15            0.535639          0.535639   0.036320
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  features8            0.483433          0.483433   0.032780
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 199,993 training samples, mini-batch size 1):
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.104443 0.101194 0.000000    0.010884   0.117155  0.409415 0.058588
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.093425 0.095524 0.000000   -0.008814   0.067161  0.978688 0.051102
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.024104 0.068556 0.000000   -0.009697   0.061676  0.979705 0.017839
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000368 0.000567 0.000000   -0.006927   0.059859  0.026853 0.000000
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring History:
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:            Timestamp   Duration Training Speed  Epochs Iterations       Samples Training RMSE Training Deviance Training MAE Validation RMSE Validation Deviance Validation MAE
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:38  0.000 sec                0.00000          0      0.000000           NaN               NaN          NaN             NaN                 NaN            NaN
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:51 14.167 sec   7767 obs/sec 4.04674          1 100003.000000       0.21526           0.04634      0.07921         0.32327             0.10451        0.13671
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:02 24.857 sec   8763 obs/sec 8.09295          2 199993.000000       0.21476           0.04612      0.08772         0.32145             0.10333        0.14303
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO: Time taken for scoring and diagnostics:  0.744 sec
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO: Training time: 24.873 sec (scoring:  1.644 sec). Processed 199,993 samples (8.093 epochs).
+10-30 13:59:03.144 192.168.231.1:54321   10820  FJ-1-1    INFO: Iterations: 2. Epochs: 8.09295. Speed: 8,757 samples/sec. Estimated time left:  9 min 49.788 sec
+10-30 13:59:12.463 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring the model.
+10-30 13:59:12.467 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 299,845 training samples, mini-batch size 1):
+10-30 13:59:12.467 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 13:59:12.467 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 13:59:12.467 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.042293 0.035666 0.000000    0.017544   0.126089  0.379435 0.079266
+10-30 13:59:12.467 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.072160 0.069510 0.000000   -0.011576   0.069192  0.975395 0.056025
+10-30 13:59:12.467 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.023947 0.064925 0.000000   -0.010270   0.061763  0.978064 0.020551
+10-30 13:59:12.467 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000343 0.000566 0.000000   -0.006078   0.057920  0.074713 0.000000
+10-30 13:59:13.241 192.168.231.1:54321   10820  FJ-1-1    INFO: Computing variable importances.
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on temporary training frame with 10027 samples
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: train.temporary.sample.40.47%
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.0465131
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.21566895
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.0465131
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.07792694
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.14956531
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on full validation frame
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: valid
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.10507442
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.32415184
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.10507442
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.13774838
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.22314294
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO: Variable Importances:
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:   Variable Relative Importance Scaled Importance Percentage
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO: features13            1.000000          1.000000   0.066762
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  features6            0.984952          0.984952   0.065757
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  features2            0.933362          0.933362   0.062313
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  features3            0.909049          0.909049   0.060690
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  features0            0.875061          0.875061   0.058421
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  features4            0.740512          0.740512   0.049438
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO: features14            0.723270          0.723270   0.048287
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  features5            0.685180          0.685180   0.045744
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO: features10            0.637748          0.637748   0.042577
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO: features12            0.635405          0.635405   0.042421
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO: ---
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  features9            0.624042          0.624042   0.041662
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO: features11            0.623525          0.623525   0.041628
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO: features16            0.603065          0.603065   0.040262
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  features1            0.586864          0.586864   0.039180
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO: features17            0.541454          0.541454   0.036148
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO: features21            0.532466          0.532466   0.035548
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO: features19            0.528258          0.528258   0.035267
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO: features15            0.526055          0.526055   0.035120
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO: features18            0.519667          0.519667   0.034694
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO: features20            0.509812          0.509812   0.034036
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 299,845 training samples, mini-batch size 1):
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.042293 0.035666 0.000000    0.017544   0.126089  0.379435 0.079266
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.072160 0.069510 0.000000   -0.011576   0.069192  0.975395 0.056025
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.023947 0.064925 0.000000   -0.010270   0.061763  0.978064 0.020551
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000343 0.000566 0.000000   -0.006078   0.057920  0.074713 0.000000
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring History:
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:            Timestamp   Duration Training Speed   Epochs Iterations       Samples Training RMSE Training Deviance Training MAE Validation RMSE Validation Deviance Validation MAE
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:38  0.000 sec                 0.00000          0      0.000000           NaN               NaN          NaN             NaN                 NaN            NaN
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:51 14.167 sec   7767 obs/sec  4.04674          1 100003.000000       0.21526           0.04634      0.07921         0.32327             0.10451        0.13671
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:02 24.857 sec   8763 obs/sec  8.09295          2 199993.000000       0.21476           0.04612      0.08772         0.32145             0.10333        0.14303
+10-30 13:59:13.249 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:12 34.973 sec   9325 obs/sec 12.13358          3 299845.000000       0.21567           0.04651      0.07793         0.32415             0.10507        0.13775
+10-30 13:59:13.250 192.168.231.1:54321   10820  FJ-1-1    INFO: Time taken for scoring and diagnostics:  0.783 sec
+10-30 13:59:13.250 192.168.231.1:54321   10820  FJ-1-1    INFO: Training time: 34.979 sec (scoring:  2.427 sec). Processed 299,845 samples (12.134 epochs).
+10-30 13:59:13.250 192.168.231.1:54321   10820  FJ-1-1    INFO: Iterations: 3. Epochs: 12.1336. Speed: 9,323 samples/sec. Estimated time left:  6 min 37.221 sec
+10-30 13:59:21.749 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring the model.
+10-30 13:59:21.760 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 399,558 training samples, mini-batch size 1):
+10-30 13:59:21.760 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 13:59:21.760 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 13:59:21.760 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.056490 0.051701 0.000000    0.021023   0.139368  0.346451 0.094208
+10-30 13:59:21.760 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.067785 0.068730 0.000000   -0.013884   0.071597  0.969186 0.060815
+10-30 13:59:21.760 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.025091 0.063186 0.000000   -0.011226   0.061809  0.974022 0.023297
+10-30 13:59:21.760 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000395 0.000556 0.000000   -0.006781   0.053934  0.158049 0.000000
+10-30 13:59:22.506 192.168.231.1:54321   10820  FJ-1-1    INFO: Computing variable importances.
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on temporary training frame with 10027 samples
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: train.temporary.sample.40.47%
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.04641757
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.21544738
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.04641757
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.07432634
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.14899935
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on full validation frame
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: valid
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.1037257
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.32206476
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.1037257
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.14097707
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.2213033
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO: Variable Importances:
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:   Variable Relative Importance Scaled Importance Percentage
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  features2            1.000000          1.000000   0.068684
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO: features13            0.984561          0.984561   0.067624
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  features6            0.933245          0.933245   0.064099
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  features0            0.878984          0.878984   0.060372
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  features3            0.791796          0.791796   0.054384
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO: features14            0.784984          0.784984   0.053916
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  features4            0.736278          0.736278   0.050571
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  features5            0.692420          0.692420   0.047558
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO: features16            0.656653          0.656653   0.045102
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO: features10            0.646793          0.646793   0.044424
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO: ---
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  features9            0.591272          0.591272   0.040611
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  features7            0.585759          0.585759   0.040232
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO: features17            0.529349          0.529349   0.036358
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  features8            0.524312          0.524312   0.036012
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  features1            0.513886          0.513886   0.035296
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO: features21            0.505517          0.505517   0.034721
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO: features19            0.500131          0.500131   0.034351
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO: features15            0.498688          0.498688   0.034252
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO: features20            0.480448          0.480448   0.032999
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO: features18            0.479904          0.479904   0.032962
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 399,558 training samples, mini-batch size 1):
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.056490 0.051701 0.000000    0.021023   0.139368  0.346451 0.094208
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.067785 0.068730 0.000000   -0.013884   0.071597  0.969186 0.060815
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.025091 0.063186 0.000000   -0.011226   0.061809  0.974022 0.023297
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000395 0.000556 0.000000   -0.006781   0.053934  0.158049 0.000000
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring History:
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:            Timestamp   Duration Training Speed   Epochs Iterations       Samples Training RMSE Training Deviance Training MAE Validation RMSE Validation Deviance Validation MAE
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:38  0.000 sec                 0.00000          0      0.000000           NaN               NaN          NaN             NaN                 NaN            NaN
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:51 14.167 sec   7767 obs/sec  4.04674          1 100003.000000       0.21526           0.04634      0.07921         0.32327             0.10451        0.13671
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:02 24.857 sec   8763 obs/sec  8.09295          2 199993.000000       0.21476           0.04612      0.08772         0.32145             0.10333        0.14303
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:12 34.973 sec   9325 obs/sec 12.13358          3 299845.000000       0.21567           0.04651      0.07793         0.32415             0.10507        0.13775
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:21 44.238 sec   9827 obs/sec 16.16858          4 399558.000000       0.21545           0.04642      0.07433         0.32206             0.10373        0.14098
+10-30 13:59:22.514 192.168.231.1:54321   10820  FJ-1-1    INFO: Time taken for scoring and diagnostics:  0.762 sec
+10-30 13:59:22.515 192.168.231.1:54321   10820  FJ-1-1    INFO: Training time: 44.243 sec (scoring:  3.189 sec). Processed 399,558 samples (16.169 epochs).
+10-30 13:59:22.515 192.168.231.1:54321   10820  FJ-1-1    INFO: Iterations: 4. Epochs: 16.1686. Speed: 9,826 samples/sec. Estimated time left:  5 min 20.201 sec
+10-30 13:59:30.372 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring the model.
+10-30 13:59:30.376 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 499,376 training samples, mini-batch size 1):
+10-30 13:59:30.376 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 13:59:30.376 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 13:59:30.376 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.044484 0.046269 0.000000    0.021505   0.152381  0.296734 0.107634
+10-30 13:59:30.376 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.056989 0.064172 0.000000   -0.015591   0.074436  0.963438 0.062056
+10-30 13:59:30.376 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.023230 0.058395 0.000000   -0.012438   0.061891  0.969964 0.026187
+10-30 13:59:30.376 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000376 0.000543 0.000000   -0.004085   0.049696  0.281587 0.000000
+10-30 13:59:31.070 192.168.231.1:54321   10820  FJ-1-1    INFO: Computing variable importances.
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on temporary training frame with 10027 samples
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: train.temporary.sample.40.47%
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.046836637
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.21641773
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.046836637
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.06849509
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.14969425
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on full validation frame
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: valid
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.10448255
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.3232376
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.10448255
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.1382263
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.2224795
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO: Variable Importances:
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:   Variable Relative Importance Scaled Importance Percentage
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  features0            1.000000          1.000000   0.071506
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO: features13            0.965551          0.965551   0.069042
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  features2            0.913320          0.913320   0.065308
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  features6            0.859179          0.859179   0.061436
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO: features14            0.752636          0.752636   0.053818
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  features3            0.702900          0.702900   0.050261
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO: features10            0.696723          0.696723   0.049820
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO: features11            0.694795          0.694795   0.049682
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO: features16            0.659955          0.659955   0.047191
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  features5            0.641717          0.641717   0.045886
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO: ---
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  features7            0.593743          0.593743   0.042456
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  features9            0.535633          0.535633   0.038301
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO: features17            0.486468          0.486468   0.034785
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO: features20            0.474802          0.474802   0.033951
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO: features19            0.474064          0.474064   0.033898
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO: features21            0.473499          0.473499   0.033858
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO: features15            0.467900          0.467900   0.033458
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO: features18            0.453541          0.453541   0.032431
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  features1            0.450125          0.450125   0.032187
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  features8            0.421414          0.421414   0.030133
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 499,376 training samples, mini-batch size 1):
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.044484 0.046269 0.000000    0.021505   0.152381  0.296734 0.107634
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.056989 0.064172 0.000000   -0.015591   0.074436  0.963438 0.062056
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.023230 0.058395 0.000000   -0.012438   0.061891  0.969964 0.026187
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000376 0.000543 0.000000   -0.004085   0.049696  0.281587 0.000000
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring History:
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:            Timestamp   Duration Training Speed   Epochs Iterations       Samples Training RMSE Training Deviance Training MAE Validation RMSE Validation Deviance Validation MAE
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:38  0.000 sec                 0.00000          0      0.000000           NaN               NaN          NaN             NaN                 NaN            NaN
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:51 14.167 sec   7767 obs/sec  4.04674          1 100003.000000       0.21526           0.04634      0.07921         0.32327             0.10451        0.13671
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:02 24.857 sec   8763 obs/sec  8.09295          2 199993.000000       0.21476           0.04612      0.08772         0.32145             0.10333        0.14303
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:12 34.973 sec   9325 obs/sec 12.13358          3 299845.000000       0.21567           0.04651      0.07793         0.32415             0.10507        0.13775
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:21 44.238 sec   9827 obs/sec 16.16858          4 399558.000000       0.21545           0.04642      0.07433         0.32206             0.10373        0.14098
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:30 52.802 sec  10292 obs/sec 20.20783          5 499376.000000       0.21642           0.04684      0.06850         0.32324             0.10448        0.13823
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO: Time taken for scoring and diagnostics:  0.702 sec
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO: Training time: 52.807 sec (scoring:  3.891 sec). Processed 499,376 samples (20.208 epochs).
+10-30 13:59:31.078 192.168.231.1:54321   10820  FJ-1-1    INFO: Iterations: 5. Epochs: 20.2078. Speed: 10,291 samples/sec. Estimated time left:  4 min 33.434 sec
+10-30 13:59:38.967 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring the model.
+10-30 13:59:38.970 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 599,298 training samples, mini-batch size 1):
+10-30 13:59:38.970 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 13:59:38.970 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 13:59:38.970 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.092761 0.110975 0.000000    0.017703   0.166383  0.249554 0.110071
+10-30 13:59:38.970 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.080949 0.081766 0.000000   -0.016398   0.077834  0.961082 0.071722
+10-30 13:59:38.970 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.022891 0.053602 0.000000   -0.012905   0.062037  0.968442 0.031016
+10-30 13:59:38.970 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000349 0.000545 0.000000   -0.002022   0.048797  0.227645 0.000000
+10-30 13:59:39.696 192.168.231.1:54321   10820  FJ-1-1    INFO: Computing variable importances.
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on temporary training frame with 10027 samples
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: train.temporary.sample.40.47%
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.046564203
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.21578741
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.046564203
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.07061753
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.14907844
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on full validation frame
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: valid
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.10388571
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.32231307
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.10388571
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.13843416
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.22152117
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO: Variable Importances:
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:   Variable Relative Importance Scaled Importance Percentage
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  features0            1.000000          1.000000   0.072508
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO: features13            0.980095          0.980095   0.071065
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  features2            0.870589          0.870589   0.063125
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  features6            0.817082          0.817082   0.059245
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO: features14            0.732357          0.732357   0.053102
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO: features10            0.716882          0.716882   0.051980
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  features4            0.709177          0.709177   0.051421
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO: features16            0.695658          0.695658   0.050441
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO: features11            0.690958          0.690958   0.050100
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  features3            0.648222          0.648222   0.047002
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO: ---
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  features7            0.614636          0.614636   0.044566
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  features9            0.576152          0.576152   0.041776
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO: features20            0.474146          0.474146   0.034380
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO: features18            0.472113          0.472113   0.034232
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO: features15            0.472023          0.472023   0.034226
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO: features21            0.462193          0.462193   0.033513
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO: features17            0.446031          0.446031   0.032341
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO: features19            0.443229          0.443229   0.032138
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  features1            0.410208          0.410208   0.029744
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  features8            0.312779          0.312779   0.022679
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 599,298 training samples, mini-batch size 1):
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.092761 0.110975 0.000000    0.017703   0.166383  0.249554 0.110071
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.080949 0.081766 0.000000   -0.016398   0.077834  0.961082 0.071722
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.022891 0.053602 0.000000   -0.012905   0.062037  0.968442 0.031016
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000349 0.000545 0.000000   -0.002022   0.048797  0.227645 0.000000
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring History:
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:            Timestamp          Duration Training Speed   Epochs Iterations       Samples Training RMSE Training Deviance Training MAE Validation RMSE Validation Deviance Validation MAE
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:38         0.000 sec                 0.00000          0      0.000000           NaN               NaN          NaN             NaN                 NaN            NaN
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:51        14.167 sec   7767 obs/sec  4.04674          1 100003.000000       0.21526           0.04634      0.07921         0.32327             0.10451        0.13671
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:02        24.857 sec   8763 obs/sec  8.09295          2 199993.000000       0.21476           0.04612      0.08772         0.32145             0.10333        0.14303
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:12        34.973 sec   9325 obs/sec 12.13358          3 299845.000000       0.21567           0.04651      0.07793         0.32415             0.10507        0.13775
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:21        44.238 sec   9827 obs/sec 16.16858          4 399558.000000       0.21545           0.04642      0.07433         0.32206             0.10373        0.14098
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:30        52.802 sec  10292 obs/sec 20.20783          5 499376.000000       0.21642           0.04684      0.06850         0.32324             0.10448        0.13823
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:38  1 min  1.428 sec  10623 obs/sec 24.25129          6 599298.000000       0.21579           0.04656      0.07062         0.32231             0.10389        0.13843
+10-30 13:59:39.703 192.168.231.1:54321   10820  FJ-1-1    INFO: Time taken for scoring and diagnostics:  0.733 sec
+10-30 13:59:39.704 192.168.231.1:54321   10820  FJ-1-1    INFO: Training time:  1 min  1.432 sec (scoring:  4.624 sec). Processed 599,298 samples (24.251 epochs).
+10-30 13:59:39.704 192.168.231.1:54321   10820  FJ-1-1    INFO: Iterations: 6. Epochs: 24.2513. Speed: 10,623 samples/sec. Estimated time left:  4 min  2.189 sec
+10-30 13:59:47.362 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring the model.
+10-30 13:59:47.365 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 699,078 training samples, mini-batch size 1):
+10-30 13:59:47.365 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 13:59:47.365 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 13:59:47.365 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.048727 0.062443 0.000000    0.016671   0.182738  0.217079 0.118786
+10-30 13:59:47.365 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.064199 0.078188 0.000000   -0.017870   0.081414  0.945866 0.076726
+10-30 13:59:47.365 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.021990 0.049188 0.000000   -0.013859   0.062190  0.964992 0.036525
+10-30 13:59:47.365 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000360 0.000439 0.000000   -0.000707   0.047554  0.199349 0.000000
+10-30 13:59:48.090 192.168.231.1:54321   10820  FJ-1-1    INFO: Computing variable importances.
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on temporary training frame with 10027 samples
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: train.temporary.sample.40.47%
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.045924906
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.21430098
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.045924906
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.08735949
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.14888503
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on full validation frame
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: valid
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.10152457
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.3186292
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.10152457
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.15308179
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.21892954
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO: Variable Importances:
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:   Variable Relative Importance Scaled Importance Percentage
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  features0            1.000000          1.000000   0.072743
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO: features13            0.977541          0.977541   0.071110
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  features2            0.950585          0.950585   0.069149
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  features6            0.813800          0.813800   0.059199
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO: features10            0.746276          0.746276   0.054287
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO: features11            0.737005          0.737005   0.053612
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO: features16            0.736954          0.736954   0.053609
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  features4            0.706774          0.706774   0.051413
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO: features14            0.700670          0.700670   0.050969
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  features3            0.626050          0.626050   0.045541
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO: ---
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO: features12            0.597360          0.597360   0.043454
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  features5            0.583877          0.583877   0.042473
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO: features15            0.457445          0.457445   0.033276
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO: features18            0.444765          0.444765   0.032354
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO: features17            0.442727          0.442727   0.032205
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO: features19            0.434102          0.434102   0.031578
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO: features21            0.432439          0.432439   0.031457
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO: features20            0.430119          0.430119   0.031288
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  features1            0.398736          0.398736   0.029005
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  features8            0.303096          0.303096   0.022048
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 699,078 training samples, mini-batch size 1):
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.048727 0.062443 0.000000    0.016671   0.182738  0.217079 0.118786
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.064199 0.078188 0.000000   -0.017870   0.081414  0.945866 0.076726
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.021990 0.049188 0.000000   -0.013859   0.062190  0.964992 0.036525
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000360 0.000439 0.000000   -0.000707   0.047554  0.199349 0.000000
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring History:
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:            Timestamp          Duration Training Speed   Epochs Iterations       Samples Training RMSE Training Deviance Training MAE Validation RMSE Validation Deviance Validation MAE
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:38         0.000 sec                 0.00000          0      0.000000           NaN               NaN          NaN             NaN                 NaN            NaN
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:51        14.167 sec   7767 obs/sec  4.04674          1 100003.000000       0.21526           0.04634      0.07921         0.32327             0.10451        0.13671
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:02        24.857 sec   8763 obs/sec  8.09295          2 199993.000000       0.21476           0.04612      0.08772         0.32145             0.10333        0.14303
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:12        34.973 sec   9325 obs/sec 12.13358          3 299845.000000       0.21567           0.04651      0.07793         0.32415             0.10507        0.13775
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:21        44.238 sec   9827 obs/sec 16.16858          4 399558.000000       0.21545           0.04642      0.07433         0.32206             0.10373        0.14098
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:30        52.802 sec  10292 obs/sec 20.20783          5 499376.000000       0.21642           0.04684      0.06850         0.32324             0.10448        0.13823
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:38  1 min  1.428 sec  10623 obs/sec 24.25129          6 599298.000000       0.21579           0.04656      0.07062         0.32231             0.10389        0.13843
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:47  1 min  9.822 sec  10910 obs/sec 28.28901          7 699078.000000       0.21430           0.04592      0.08736         0.31863             0.10152        0.15308
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO: Time taken for scoring and diagnostics:  0.732 sec
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO: Training time:  1 min  9.833 sec (scoring:  5.356 sec). Processed 699,078 samples (28.289 epochs).
+10-30 13:59:48.104 192.168.231.1:54321   10820  FJ-1-1    INFO: Iterations: 7. Epochs: 28.2890. Speed: 10,908 samples/sec. Estimated time left:  3 min 37.785 sec
+10-30 13:59:56.359 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring the model.
+10-30 13:59:56.371 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 798,879 training samples, mini-batch size 1):
+10-30 13:59:56.371 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 13:59:56.371 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 13:59:56.371 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.038407 0.045777 0.000000    0.014727   0.192478  0.186476 0.128186
+10-30 13:59:56.371 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.058136 0.084930 0.000000   -0.018810   0.085097  0.940351 0.089884
+10-30 13:59:56.371 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.021054 0.046499 0.000000   -0.014319   0.062358  0.963233 0.041516
+10-30 13:59:56.371 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000361 0.000445 0.000000    0.000427   0.047457  0.293247 0.000000
+10-30 13:59:57.201 192.168.231.1:54321   10820  FJ-1-1    INFO: Computing variable importances.
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on temporary training frame with 10027 samples
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: train.temporary.sample.40.47%
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.04596961
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.21440524
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.04596961
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.104485266
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.15081687
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on full validation frame
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: valid
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.10026216
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.316642
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.10026216
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.16423744
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.21821535
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO: Variable Importances:
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:   Variable Relative Importance Scaled Importance Percentage
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  features0            1.000000          1.000000   0.074759
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  features2            0.962589          0.962589   0.071962
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO: features13            0.909817          0.909817   0.068017
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  features6            0.834056          0.834056   0.062353
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO: features10            0.742740          0.742740   0.055527
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  features4            0.740578          0.740578   0.055365
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO: features16            0.738328          0.738328   0.055197
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO: features11            0.715884          0.715884   0.053519
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO: features14            0.667137          0.667137   0.049875
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  features9            0.607408          0.607408   0.045409
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO: ---
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO: features12            0.567123          0.567123   0.042398
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  features5            0.538675          0.538675   0.040271
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  features1            0.433268          0.433268   0.032391
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO: features15            0.419881          0.419881   0.031390
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO: features17            0.417308          0.417308   0.031198
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO: features19            0.414061          0.414061   0.030955
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO: features18            0.410876          0.410876   0.030717
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO: features21            0.405669          0.405669   0.030328
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO: features20            0.393532          0.393532   0.029420
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  features8            0.290120          0.290120   0.021689
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 798,879 training samples, mini-batch size 1):
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.038407 0.045777 0.000000    0.014727   0.192478  0.186476 0.128186
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.058136 0.084930 0.000000   -0.018810   0.085097  0.940351 0.089884
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.021054 0.046499 0.000000   -0.014319   0.062358  0.963233 0.041516
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000361 0.000445 0.000000    0.000427   0.047457  0.293247 0.000000
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring History:
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:            Timestamp          Duration Training Speed   Epochs Iterations       Samples Training RMSE Training Deviance Training MAE Validation RMSE Validation Deviance Validation MAE
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:38         0.000 sec                 0.00000          0      0.000000           NaN               NaN          NaN             NaN                 NaN            NaN
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:51        14.167 sec   7767 obs/sec  4.04674          1 100003.000000       0.21526           0.04634      0.07921         0.32327             0.10451        0.13671
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:02        24.857 sec   8763 obs/sec  8.09295          2 199993.000000       0.21476           0.04612      0.08772         0.32145             0.10333        0.14303
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:12        34.973 sec   9325 obs/sec 12.13358          3 299845.000000       0.21567           0.04651      0.07793         0.32415             0.10507        0.13775
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:21        44.238 sec   9827 obs/sec 16.16858          4 399558.000000       0.21545           0.04642      0.07433         0.32206             0.10373        0.14098
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:30        52.802 sec  10292 obs/sec 20.20783          5 499376.000000       0.21642           0.04684      0.06850         0.32324             0.10448        0.13823
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:38  1 min  1.428 sec  10623 obs/sec 24.25129          6 599298.000000       0.21579           0.04656      0.07062         0.32231             0.10389        0.13843
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:47  1 min  9.822 sec  10910 obs/sec 28.28901          7 699078.000000       0.21430           0.04592      0.08736         0.31863             0.10152        0.15308
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:56  1 min 18.934 sec  11043 obs/sec 32.32757          8 798879.000000       0.21441           0.04597      0.10449         0.31664             0.10026        0.16424
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO: Time taken for scoring and diagnostics:  0.848 sec
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO: Training time:  1 min 18.943 sec (scoring:  6.204 sec). Processed 798,879 samples (32.328 epochs).
+10-30 13:59:57.214 192.168.231.1:54321   10820  FJ-1-1    INFO: Iterations: 8. Epochs: 32.3276. Speed: 11,042 samples/sec. Estimated time left:  3 min 19.748 sec
+10-30 14:00:04.417 192.168.231.1:54321   10820  FJ-1-1    INFO: Training time:  1 min 26.146 sec (scoring:  6.204 sec). Processed 899,079 samples (36.382 epochs).
+10-30 14:00:04.418 192.168.231.1:54321   10820  FJ-1-1    INFO: Iterations: 9. Epochs: 36.3823. Speed: 11,302 samples/sec. Estimated time left:  2 min 59.958 sec
+10-30 14:00:11.485 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring the model.
+10-30 14:00:11.487 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 999,021 training samples, mini-batch size 1):
+10-30 14:00:11.487 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 14:00:11.487 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 14:00:11.487 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.075282 0.114023 0.000000    0.021376   0.211961  0.127891 0.170747
+10-30 14:00:11.487 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.070891 0.108023 0.000000   -0.019071   0.092582  0.936704 0.111143
+10-30 14:00:11.487 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.019553 0.042028 0.000000   -0.014948   0.063020  0.961266 0.048337
+10-30 14:00:11.487 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000376 0.000455 0.000000    0.001851   0.047847  0.442474 0.000000
+10-30 14:00:12.214 192.168.231.1:54321   10820  FJ-1-1    INFO: Computing variable importances.
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on temporary training frame with 10027 samples
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: train.temporary.sample.40.47%
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.047171887
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.2171909
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.047171887
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.06705343
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.15078187
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on full validation frame
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: valid
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.10765611
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.3281099
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.10765611
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.14314364
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.22904229
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO: Variable Importances:
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:   Variable Relative Importance Scaled Importance Percentage
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  features2            1.000000          1.000000   0.070250
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  features0            0.999873          0.999873   0.070241
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  features6            0.920220          0.920220   0.064645
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  features4            0.870369          0.870369   0.061143
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO: features10            0.860753          0.860753   0.060468
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO: features13            0.854693          0.854693   0.060042
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO: features16            0.853606          0.853606   0.059965
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO: features11            0.835815          0.835815   0.058716
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO: features14            0.725337          0.725337   0.050955
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  features9            0.655360          0.655360   0.046039
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO: ---
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO: features12            0.574686          0.574686   0.040371
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  features3            0.565804          0.565804   0.039747
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  features1            0.524667          0.524667   0.036858
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO: features17            0.446764          0.446764   0.031385
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO: features15            0.429189          0.429189   0.030150
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO: features19            0.416282          0.416282   0.029244
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO: features18            0.407807          0.407807   0.028648
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO: features21            0.407535          0.407535   0.028629
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO: features20            0.388453          0.388453   0.027289
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  features8            0.324232          0.324232   0.022777
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 999,021 training samples, mini-batch size 1):
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.075282 0.114023 0.000000    0.021376   0.211961  0.127891 0.170747
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.070891 0.108023 0.000000   -0.019071   0.092582  0.936704 0.111143
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.019553 0.042028 0.000000   -0.014948   0.063020  0.961266 0.048337
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000376 0.000455 0.000000    0.001851   0.047847  0.442474 0.000000
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring History:
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:            Timestamp          Duration Training Speed   Epochs Iterations       Samples Training RMSE Training Deviance Training MAE Validation RMSE Validation Deviance Validation MAE
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:38         0.000 sec                 0.00000          0      0.000000           NaN               NaN          NaN             NaN                 NaN            NaN
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:51        14.167 sec   7767 obs/sec  4.04674          1 100003.000000       0.21526           0.04634      0.07921         0.32327             0.10451        0.13671
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:02        24.857 sec   8763 obs/sec  8.09295          2 199993.000000       0.21476           0.04612      0.08772         0.32145             0.10333        0.14303
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:12        34.973 sec   9325 obs/sec 12.13358          3 299845.000000       0.21567           0.04651      0.07793         0.32415             0.10507        0.13775
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:21        44.238 sec   9827 obs/sec 16.16858          4 399558.000000       0.21545           0.04642      0.07433         0.32206             0.10373        0.14098
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:30        52.802 sec  10292 obs/sec 20.20783          5 499376.000000       0.21642           0.04684      0.06850         0.32324             0.10448        0.13823
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:38  1 min  1.428 sec  10623 obs/sec 24.25129          6 599298.000000       0.21579           0.04656      0.07062         0.32231             0.10389        0.13843
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:47  1 min  9.822 sec  10910 obs/sec 28.28901          7 699078.000000       0.21430           0.04592      0.08736         0.31863             0.10152        0.15308
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:56  1 min 18.934 sec  11043 obs/sec 32.32757          8 798879.000000       0.21441           0.04597      0.10449         0.31664             0.10026        0.16424
+10-30 14:00:12.221 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 14:00:11  1 min 33.947 sec  11533 obs/sec 40.42655         10 999021.000000       0.21719           0.04717      0.06705         0.32811             0.10766        0.14314
+10-30 14:00:12.222 192.168.231.1:54321   10820  FJ-1-1    INFO: Time taken for scoring and diagnostics:  0.734 sec
+10-30 14:00:12.222 192.168.231.1:54321   10820  FJ-1-1    INFO: Training time:  1 min 33.951 sec (scoring:  6.938 sec). Processed 999,021 samples (40.427 epochs).
+10-30 14:00:12.222 192.168.231.1:54321   10820  FJ-1-1    INFO: Iterations: 10. Epochs: 40.4266. Speed: 11,533 samples/sec. Estimated time left:  2 min 44.017 sec
+10-30 14:00:20.857 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring the model.
+10-30 14:00:20.860 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 1,099,280 training samples, mini-batch size 1):
+10-30 14:00:20.860 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 14:00:20.860 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 14:00:20.860 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.057786 0.088872 0.000000    0.027924   0.221454  0.101854 0.185157
+10-30 14:00:20.860 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.061161 0.098326 0.000000   -0.020404   0.094386  0.933549 0.123284
+10-30 14:00:20.860 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.017793 0.038231 0.000000   -0.015422   0.063406  0.959912 0.051278
+10-30 14:00:20.860 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000340 0.000440 0.000000    0.003194   0.048567  0.458090 0.000000
+10-30 14:00:21.564 192.168.231.1:54321   10820  FJ-1-1    INFO: Computing variable importances.
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on temporary training frame with 10027 samples
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: train.temporary.sample.40.47%
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.04628586
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.21514149
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.04628586
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.07367846
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.1489032
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on full validation frame
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: valid
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.103871495
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.32229102
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.103871495
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.14440303
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.2222577
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO: Variable Importances:
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:   Variable Relative Importance Scaled Importance Percentage
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  features2            1.000000          1.000000   0.070947
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  features0            0.994000          0.994000   0.070521
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  features6            0.933341          0.933341   0.066218
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  features4            0.921643          0.921643   0.065388
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO: features10            0.865160          0.865160   0.061380
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO: features16            0.847332          0.847332   0.060116
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO: features11            0.832019          0.832019   0.059029
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO: features13            0.813012          0.813012   0.057681
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO: features14            0.734644          0.734644   0.052121
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  features9            0.645833          0.645833   0.045820
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO: ---
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  features5            0.560061          0.560061   0.039735
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  features3            0.555563          0.555563   0.039415
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  features1            0.492315          0.492315   0.034928
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO: features17            0.439682          0.439682   0.031194
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO: features15            0.404482          0.404482   0.028697
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO: features19            0.401400          0.401400   0.028478
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO: features21            0.396447          0.396447   0.028127
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO: features18            0.391638          0.391638   0.027785
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO: features20            0.381478          0.381478   0.027065
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  features8            0.328926          0.328926   0.023336
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 1,099,280 training samples, mini-batch size 1):
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.057786 0.088872 0.000000    0.027924   0.221454  0.101854 0.185157
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.061161 0.098326 0.000000   -0.020404   0.094386  0.933549 0.123284
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.017793 0.038231 0.000000   -0.015422   0.063406  0.959912 0.051278
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000340 0.000440 0.000000    0.003194   0.048567  0.458090 0.000000
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring History:
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:            Timestamp          Duration Training Speed   Epochs Iterations        Samples Training RMSE Training Deviance Training MAE Validation RMSE Validation Deviance Validation MAE
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:38         0.000 sec                 0.00000          0       0.000000           NaN               NaN          NaN             NaN                 NaN            NaN
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:51        14.167 sec   7767 obs/sec  4.04674          1  100003.000000       0.21526           0.04634      0.07921         0.32327             0.10451        0.13671
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:02        24.857 sec   8763 obs/sec  8.09295          2  199993.000000       0.21476           0.04612      0.08772         0.32145             0.10333        0.14303
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:12        34.973 sec   9325 obs/sec 12.13358          3  299845.000000       0.21567           0.04651      0.07793         0.32415             0.10507        0.13775
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:21        44.238 sec   9827 obs/sec 16.16858          4  399558.000000       0.21545           0.04642      0.07433         0.32206             0.10373        0.14098
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:30        52.802 sec  10292 obs/sec 20.20783          5  499376.000000       0.21642           0.04684      0.06850         0.32324             0.10448        0.13823
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:38  1 min  1.428 sec  10623 obs/sec 24.25129          6  599298.000000       0.21579           0.04656      0.07062         0.32231             0.10389        0.13843
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:47  1 min  9.822 sec  10910 obs/sec 28.28901          7  699078.000000       0.21430           0.04592      0.08736         0.31863             0.10152        0.15308
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:56  1 min 18.934 sec  11043 obs/sec 32.32757          8  798879.000000       0.21441           0.04597      0.10449         0.31664             0.10026        0.16424
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 14:00:11  1 min 33.947 sec  11533 obs/sec 40.42655         10  999021.000000       0.21719           0.04717      0.06705         0.32811             0.10766        0.14314
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 14:00:20  1 min 43.296 sec  11540 obs/sec 44.48365         11 1099280.000000       0.21514           0.04629      0.07368         0.32229             0.10387        0.14440
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO: Windowed averages (window size 5) of model's last 6 deviance metrics: [0.10422444090267771, 0.10410026708908342, 0.10373858916672529, 0.10277613678026391, 0.10356221666009777, 0.10344000510210197]
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO: Checking convergence with deviance metric: 0.10422444090267771 --> 0.10277613678026391 (still improving).
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO: Time taken for scoring and diagnostics:  0.711 sec
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO: Training time:  1 min 43.300 sec (scoring:  7.649 sec). Processed 1,099,280 samples (44.484 epochs).
+10-30 14:00:21.571 192.168.231.1:54321   10820  FJ-1-1    INFO: Iterations: 11. Epochs: 44.4837. Speed: 11,540 samples/sec. Estimated time left:  2 min 31.974 sec
+10-30 14:00:28.524 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring the model.
+10-30 14:00:28.527 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 1,199,408 training samples, mini-batch size 1):
+10-30 14:00:28.527 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 14:00:28.527 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 14:00:28.527 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.046051 0.060049 0.000000    0.031594   0.228702  0.073819 0.197170
+10-30 14:00:28.527 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.057722 0.088314 0.000000   -0.021000   0.096176  0.932008 0.133870
+10-30 14:00:28.527 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.017336 0.037592 0.000000   -0.015707   0.063938  0.958965 0.054721
+10-30 14:00:28.527 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000321 0.000442 0.000000    0.004427   0.049721  0.487452 0.000000
+10-30 14:00:29.241 192.168.231.1:54321   10820  FJ-1-1    INFO: Computing variable importances.
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on temporary training frame with 10027 samples
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: train.temporary.sample.40.47%
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.046347134
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.21528384
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.046347134
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.071882285
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.14879332
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on full validation frame
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: valid
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.10409588
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.32263893
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.10409588
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.14268972
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.22267172
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO: Variable Importances:
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:   Variable Relative Importance Scaled Importance Percentage
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  features6            1.000000          1.000000   0.069178
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  features2            0.995976          0.995976   0.068900
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  features4            0.979473          0.979473   0.067758
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  features0            0.958655          0.958655   0.066318
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO: features10            0.927414          0.927414   0.064157
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO: features16            0.903421          0.903421   0.062497
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO: features11            0.886084          0.886084   0.061298
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO: features13            0.811221          0.811221   0.056119
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO: features14            0.755557          0.755557   0.052268
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  features9            0.656064          0.656064   0.045385
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO: ---
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  features7            0.579346          0.579346   0.040078
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  features3            0.549253          0.549253   0.037996
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  features1            0.542780          0.542780   0.037548
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO: features17            0.427665          0.427665   0.029585
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO: features15            0.399121          0.399121   0.027610
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO: features21            0.397191          0.397191   0.027477
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO: features18            0.389360          0.389360   0.026935
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO: features20            0.386446          0.386446   0.026734
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO: features19            0.384470          0.384470   0.026597
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  features8            0.329085          0.329085   0.022765
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 1,199,408 training samples, mini-batch size 1):
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.046051 0.060049 0.000000    0.031594   0.228702  0.073819 0.197170
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.057722 0.088314 0.000000   -0.021000   0.096176  0.932008 0.133870
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.017336 0.037592 0.000000   -0.015707   0.063938  0.958965 0.054721
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000321 0.000442 0.000000    0.004427   0.049721  0.487452 0.000000
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring History:
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:            Timestamp          Duration Training Speed   Epochs Iterations        Samples Training RMSE Training Deviance Training MAE Validation RMSE Validation Deviance Validation MAE
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:38         0.000 sec                 0.00000          0       0.000000           NaN               NaN          NaN             NaN                 NaN            NaN
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:51        14.167 sec   7767 obs/sec  4.04674          1  100003.000000       0.21526           0.04634      0.07921         0.32327             0.10451        0.13671
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:02        24.857 sec   8763 obs/sec  8.09295          2  199993.000000       0.21476           0.04612      0.08772         0.32145             0.10333        0.14303
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:12        34.973 sec   9325 obs/sec 12.13358          3  299845.000000       0.21567           0.04651      0.07793         0.32415             0.10507        0.13775
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:21        44.238 sec   9827 obs/sec 16.16858          4  399558.000000       0.21545           0.04642      0.07433         0.32206             0.10373        0.14098
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:30        52.802 sec  10292 obs/sec 20.20783          5  499376.000000       0.21642           0.04684      0.06850         0.32324             0.10448        0.13823
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:38  1 min  1.428 sec  10623 obs/sec 24.25129          6  599298.000000       0.21579           0.04656      0.07062         0.32231             0.10389        0.13843
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:47  1 min  9.822 sec  10910 obs/sec 28.28901          7  699078.000000       0.21430           0.04592      0.08736         0.31863             0.10152        0.15308
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:56  1 min 18.934 sec  11043 obs/sec 32.32757          8  798879.000000       0.21441           0.04597      0.10449         0.31664             0.10026        0.16424
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 14:00:11  1 min 33.947 sec  11533 obs/sec 40.42655         10  999021.000000       0.21719           0.04717      0.06705         0.32811             0.10766        0.14314
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 14:00:20  1 min 43.296 sec  11540 obs/sec 44.48365         11 1099280.000000       0.21514           0.04629      0.07368         0.32229             0.10387        0.14440
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 14:00:28  1 min 50.973 sec  11734 obs/sec 48.53545         12 1199408.000000       0.21528           0.04635      0.07188         0.32264             0.10410        0.14269
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO: Windowed averages (window size 5) of model's last 6 deviance metrics: [0.10410026708908342, 0.10373858916672529, 0.10277613678026391, 0.10356221666009777, 0.10344000510210197, 0.10348204037283562]
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO: Checking convergence with deviance metric: 0.10410026708908342 --> 0.10277613678026391 (still improving).
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO: Time taken for scoring and diagnostics:  0.721 sec
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO: Training time:  1 min 50.977 sec (scoring:  8.370 sec). Processed 1,199,408 samples (48.535 epochs).
+10-30 14:00:29.248 192.168.231.1:54321   10820  FJ-1-1    INFO: Iterations: 12. Epochs: 48.5354. Speed: 11,734 samples/sec. Estimated time left:  2 min 18.337 sec
+10-30 14:00:36.072 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring the model.
+10-30 14:00:36.075 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 1,299,724 training samples, mini-batch size 1):
+10-30 14:00:36.075 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 14:00:36.075 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 14:00:36.075 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.028105 0.046073 0.000000    0.037714   0.235681  0.059173 0.210207
+10-30 14:00:36.075 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.048101 0.078375 0.000000   -0.021441   0.098134  0.929301 0.148086
+10-30 14:00:36.075 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.016639 0.036188 0.000000   -0.015825   0.064675  0.957677 0.059962
+10-30 14:00:36.075 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000308 0.000439 0.000000    0.005975   0.051657  0.525162 0.000000
+10-30 14:00:36.821 192.168.231.1:54321   10820  FJ-1-1    INFO: Computing variable importances.
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on temporary training frame with 10027 samples
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: train.temporary.sample.40.47%
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.04705246
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.21691579
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.04705246
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.12228433
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.15580775
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on full validation frame
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: valid
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.09959871
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.31559265
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.09959871
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.17972352
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.21940064
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO: Variable Importances:
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:   Variable Relative Importance Scaled Importance Percentage
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  features4            1.000000          1.000000   0.070926
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  features6            0.997347          0.997347   0.070738
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  features2            0.954391          0.954391   0.067691
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  features0            0.928931          0.928931   0.065885
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO: features10            0.922745          0.922745   0.065447
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO: features16            0.901761          0.901761   0.063958
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO: features11            0.889840          0.889840   0.063113
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO: features13            0.756649          0.756649   0.053666
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO: features14            0.732265          0.732265   0.051937
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  features9            0.669318          0.669318   0.047472
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO: ---
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO: features12            0.559654          0.559654   0.039694
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  features1            0.541275          0.541275   0.038390
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  features3            0.521890          0.521890   0.037016
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO: features17            0.410862          0.410862   0.029141
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO: features19            0.374534          0.374534   0.026564
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO: features21            0.374180          0.374180   0.026539
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO: features20            0.369338          0.369338   0.026196
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO: features15            0.367065          0.367065   0.026034
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO: features18            0.358005          0.358005   0.025392
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  features8            0.336679          0.336679   0.023879
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 1,299,724 training samples, mini-batch size 1):
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.028105 0.046073 0.000000    0.037714   0.235681  0.059173 0.210207
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.048101 0.078375 0.000000   -0.021441   0.098134  0.929301 0.148086
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.016639 0.036188 0.000000   -0.015825   0.064675  0.957677 0.059962
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000308 0.000439 0.000000    0.005975   0.051657  0.525162 0.000000
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring History:
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:            Timestamp          Duration Training Speed   Epochs Iterations        Samples Training RMSE Training Deviance Training MAE Validation RMSE Validation Deviance Validation MAE
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:38         0.000 sec                 0.00000          0       0.000000           NaN               NaN          NaN             NaN                 NaN            NaN
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:51        14.167 sec   7767 obs/sec  4.04674          1  100003.000000       0.21526           0.04634      0.07921         0.32327             0.10451        0.13671
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:02        24.857 sec   8763 obs/sec  8.09295          2  199993.000000       0.21476           0.04612      0.08772         0.32145             0.10333        0.14303
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:12        34.973 sec   9325 obs/sec 12.13358          3  299845.000000       0.21567           0.04651      0.07793         0.32415             0.10507        0.13775
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:21        44.238 sec   9827 obs/sec 16.16858          4  399558.000000       0.21545           0.04642      0.07433         0.32206             0.10373        0.14098
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:30        52.802 sec  10292 obs/sec 20.20783          5  499376.000000       0.21642           0.04684      0.06850         0.32324             0.10448        0.13823
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:38  1 min  1.428 sec  10623 obs/sec 24.25129          6  599298.000000       0.21579           0.04656      0.07062         0.32231             0.10389        0.13843
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:47  1 min  9.822 sec  10910 obs/sec 28.28901          7  699078.000000       0.21430           0.04592      0.08736         0.31863             0.10152        0.15308
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:56  1 min 18.934 sec  11043 obs/sec 32.32757          8  798879.000000       0.21441           0.04597      0.10449         0.31664             0.10026        0.16424
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 14:00:11  1 min 33.947 sec  11533 obs/sec 40.42655         10  999021.000000       0.21719           0.04717      0.06705         0.32811             0.10766        0.14314
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 14:00:20  1 min 43.296 sec  11540 obs/sec 44.48365         11 1099280.000000       0.21514           0.04629      0.07368         0.32229             0.10387        0.14440
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 14:00:28  1 min 50.973 sec  11734 obs/sec 48.53545         12 1199408.000000       0.21528           0.04635      0.07188         0.32264             0.10410        0.14269
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 14:00:36  1 min 58.553 sec  11919 obs/sec 52.59485         13 1299724.000000       0.21692           0.04705      0.12228         0.31559             0.09960        0.17972
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO: Windowed averages (window size 5) of model's last 6 deviance metrics: [0.10373858916672529, 0.10277613678026391, 0.10356221666009777, 0.10344000510210197, 0.10348204037283562, 0.10309686921699521]
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO: Checking convergence with deviance metric: 0.10373858916672529 --> 0.10277613678026391 (still improving).
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO: Time taken for scoring and diagnostics:  0.753 sec
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO: Training time:  1 min 58.563 sec (scoring:  9.123 sec). Processed 1,299,724 samples (52.595 epochs).
+10-30 14:00:36.834 192.168.231.1:54321   10820  FJ-1-1    INFO: Iterations: 13. Epochs: 52.5949. Speed: 11,918 samples/sec. Estimated time left:  2 min  5.597 sec
+10-30 14:00:43.712 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring the model.
+10-30 14:00:43.716 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 1,399,547 training samples, mini-batch size 1):
+10-30 14:00:43.716 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 14:00:43.716 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 14:00:43.716 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.038515 0.061862 0.000000    0.036895   0.243134  0.042578 0.217297
+10-30 14:00:43.716 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.053203 0.091990 0.000000   -0.021118   0.099978  0.929139 0.158399
+10-30 14:00:43.716 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.016637 0.036286 0.000000   -0.016031   0.065308  0.956923 0.064010
+10-30 14:00:43.716 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000316 0.000441 0.000000    0.007232   0.053075  0.570837 0.000000
+10-30 14:00:44.417 192.168.231.1:54321   10820  FJ-1-1    INFO: Computing variable importances.
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on temporary training frame with 10027 samples
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: train.temporary.sample.40.47%
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.047751762
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.21852176
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.047751762
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.06964079
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.15298076
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on full validation frame
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: valid
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.1107967
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.33286136
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.1107967
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.15684618
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.23797375
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO: Variable Importances:
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:   Variable Relative Importance Scaled Importance Percentage
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  features4            1.000000          1.000000   0.071973
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  features6            0.978258          0.978258   0.070408
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  features0            0.927037          0.927037   0.066722
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO: features10            0.902501          0.902501   0.064956
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  features2            0.899844          0.899844   0.064765
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO: features16            0.880499          0.880499   0.063372
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO: features11            0.873552          0.873552   0.062872
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO: features13            0.742208          0.742208   0.053419
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO: features14            0.731198          0.731198   0.052627
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  features9            0.669478          0.669478   0.048184
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO: ---
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  features7            0.555632          0.555632   0.039991
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  features3            0.515778          0.515778   0.037122
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  features1            0.511272          0.511272   0.036798
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO: features17            0.398313          0.398313   0.028668
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO: features19            0.373390          0.373390   0.026874
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO: features20            0.372922          0.372922   0.026840
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO: features15            0.370712          0.370712   0.026681
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO: features18            0.361543          0.361543   0.026021
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO: features21            0.359818          0.359818   0.025897
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  features8            0.349093          0.349093   0.025125
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 1,399,547 training samples, mini-batch size 1):
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.038515 0.061862 0.000000    0.036895   0.243134  0.042578 0.217297
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.053203 0.091990 0.000000   -0.021118   0.099978  0.929139 0.158399
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.016637 0.036286 0.000000   -0.016031   0.065308  0.956923 0.064010
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000316 0.000441 0.000000    0.007232   0.053075  0.570837 0.000000
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring History:
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:            Timestamp          Duration Training Speed   Epochs Iterations        Samples Training RMSE Training Deviance Training MAE Validation RMSE Validation Deviance Validation MAE
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:38         0.000 sec                 0.00000          0       0.000000           NaN               NaN          NaN             NaN                 NaN            NaN
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:51        14.167 sec   7767 obs/sec  4.04674          1  100003.000000       0.21526           0.04634      0.07921         0.32327             0.10451        0.13671
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:02        24.857 sec   8763 obs/sec  8.09295          2  199993.000000       0.21476           0.04612      0.08772         0.32145             0.10333        0.14303
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:12        34.973 sec   9325 obs/sec 12.13358          3  299845.000000       0.21567           0.04651      0.07793         0.32415             0.10507        0.13775
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:21        44.238 sec   9827 obs/sec 16.16858          4  399558.000000       0.21545           0.04642      0.07433         0.32206             0.10373        0.14098
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:30        52.802 sec  10292 obs/sec 20.20783          5  499376.000000       0.21642           0.04684      0.06850         0.32324             0.10448        0.13823
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:38  1 min  1.428 sec  10623 obs/sec 24.25129          6  599298.000000       0.21579           0.04656      0.07062         0.32231             0.10389        0.13843
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:47  1 min  9.822 sec  10910 obs/sec 28.28901          7  699078.000000       0.21430           0.04592      0.08736         0.31863             0.10152        0.15308
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:56  1 min 18.934 sec  11043 obs/sec 32.32757          8  798879.000000       0.21441           0.04597      0.10449         0.31664             0.10026        0.16424
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 14:00:11  1 min 33.947 sec  11533 obs/sec 40.42655         10  999021.000000       0.21719           0.04717      0.06705         0.32811             0.10766        0.14314
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 14:00:20  1 min 43.296 sec  11540 obs/sec 44.48365         11 1099280.000000       0.21514           0.04629      0.07368         0.32229             0.10387        0.14440
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 14:00:28  1 min 50.973 sec  11734 obs/sec 48.53545         12 1199408.000000       0.21528           0.04635      0.07188         0.32264             0.10410        0.14269
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 14:00:36  1 min 58.553 sec  11919 obs/sec 52.59485         13 1299724.000000       0.21692           0.04705      0.12228         0.31559             0.09960        0.17972
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 14:00:43  2 min  6.149 sec  12072 obs/sec 56.63431         14 1399547.000000       0.21852           0.04775      0.06964         0.33286             0.11080        0.15685
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO: Windowed averages (window size 5) of model's last 6 deviance metrics: [0.10277613678026391, 0.10356221666009777, 0.10344000510210197, 0.10348204037283562, 0.10309686921699521, 0.10520377691114355]
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO: Checking convergence with deviance metric: 0.10277613678026391 --> 0.10309686921699521 (converged).
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO: Convergence detected based on simple moving average of the loss function for the past 5 scoring events. Model building completed.
+10-30 14:00:44.423 192.168.231.1:54321   10820  FJ-1-1    INFO: Time taken for scoring and diagnostics:  0.709 sec
+10-30 14:00:44.425 192.168.231.1:54321   10820  FJ-1-1    INFO: Setting the model to be the best model so far (based on scoring history).
+10-30 14:00:44.425 192.168.231.1:54321   10820  FJ-1-1    INFO: Best model's loss: 0.09959871 vs this model's loss (before overwriting it with the best model): 0.1107967
+10-30 14:00:44.430 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring the model.
+10-30 14:00:44.432 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 1,399,547 training samples, mini-batch size 1):
+10-30 14:00:44.432 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 14:00:44.432 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 14:00:44.432 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.028105 0.046073 0.000000    0.037714   0.235681  0.059173 0.210207
+10-30 14:00:44.432 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.048101 0.078375 0.000000   -0.021441   0.098134  0.929301 0.148086
+10-30 14:00:44.432 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.016639 0.036188 0.000000   -0.015825   0.064675  0.957677 0.059962
+10-30 14:00:44.432 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000308 0.000439 0.000000    0.005975   0.051657  0.525162 0.000000
+10-30 14:00:45.160 192.168.231.1:54321   10820  FJ-1-1    INFO: Computing variable importances.
+10-30 14:00:45.167 192.168.231.1:54321   10820  FJ-1-1    INFO: ==============================================================================================================================================================================
+10-30 14:00:45.167 192.168.231.1:54321   10820  FJ-1-1    INFO: Finished training the Deep Learning model.
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on temporary training frame with 10027 samples
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: train.temporary.sample.40.47%
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.04705246
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.21691579
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.04705246
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.12228433
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.15580775
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO: Model Metrics Type: Regression
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  Description: Metrics reported on full validation frame
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  model id: dlModel.hex
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  frame id: valid
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  MSE: 0.09959871
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  RMSE: 0.31559265
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean residual deviance: 0.09959871
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  mean absolute error: 0.17972352
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  root mean squared log error: 0.21940064
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO: Variable Importances:
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:   Variable Relative Importance Scaled Importance Percentage
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  features4            1.000000          1.000000   0.070926
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  features6            0.997347          0.997347   0.070738
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  features2            0.954391          0.954391   0.067691
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  features0            0.928931          0.928931   0.065885
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO: features10            0.922745          0.922745   0.065447
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO: features16            0.901761          0.901761   0.063958
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO: features11            0.889840          0.889840   0.063113
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO: features13            0.756649          0.756649   0.053666
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO: features14            0.732265          0.732265   0.051937
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  features9            0.669318          0.669318   0.047472
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO: ---
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO: features12            0.559654          0.559654   0.039694
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  features1            0.541275          0.541275   0.038390
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  features3            0.521890          0.521890   0.037016
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO: features17            0.410862          0.410862   0.029141
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO: features19            0.374534          0.374534   0.026564
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO: features21            0.374180          0.374180   0.026539
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO: features20            0.369338          0.369338   0.026196
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO: features15            0.367065          0.367065   0.026034
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO: features18            0.358005          0.358005   0.025392
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  features8            0.336679          0.336679   0.023879
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO: Status of Neuron Layers (predicting label, regression, gaussian distribution, Quadratic loss, 137,729 weights/biases, 1.6 MB, 1,399,547 training samples, mini-batch size 1):
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  Layer Units      Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:      1    22     Input  0.00 %                                                                                        
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:      2   256 Rectifier       0 0.000000 0.000000  0.028105 0.046073 0.000000    0.037714   0.235681  0.059173 0.210207
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:      3   256 Rectifier       0 0.000000 0.000000  0.048101 0.078375 0.000000   -0.021441   0.098134  0.929301 0.148086
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:      4   256 Rectifier       0 0.000000 0.000000  0.016639 0.036188 0.000000   -0.015825   0.064675  0.957677 0.059962
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:      5     1    Linear         0.000000 0.000000  0.000308 0.000439 0.000000    0.005975   0.051657  0.525162 0.000000
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO: Scoring History:
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:            Timestamp          Duration Training Speed   Epochs Iterations        Samples Training RMSE Training Deviance Training MAE Validation RMSE Validation Deviance Validation MAE
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:38         0.000 sec                 0.00000          0       0.000000           NaN               NaN          NaN             NaN                 NaN            NaN
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:58:51        14.167 sec   7767 obs/sec  4.04674          1  100003.000000       0.21526           0.04634      0.07921         0.32327             0.10451        0.13671
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:02        24.857 sec   8763 obs/sec  8.09295          2  199993.000000       0.21476           0.04612      0.08772         0.32145             0.10333        0.14303
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:12        34.973 sec   9325 obs/sec 12.13358          3  299845.000000       0.21567           0.04651      0.07793         0.32415             0.10507        0.13775
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:21        44.238 sec   9827 obs/sec 16.16858          4  399558.000000       0.21545           0.04642      0.07433         0.32206             0.10373        0.14098
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:30        52.802 sec  10292 obs/sec 20.20783          5  499376.000000       0.21642           0.04684      0.06850         0.32324             0.10448        0.13823
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:38  1 min  1.428 sec  10623 obs/sec 24.25129          6  599298.000000       0.21579           0.04656      0.07062         0.32231             0.10389        0.13843
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:47  1 min  9.822 sec  10910 obs/sec 28.28901          7  699078.000000       0.21430           0.04592      0.08736         0.31863             0.10152        0.15308
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 13:59:56  1 min 18.934 sec  11043 obs/sec 32.32757          8  798879.000000       0.21441           0.04597      0.10449         0.31664             0.10026        0.16424
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 14:00:11  1 min 33.947 sec  11533 obs/sec 40.42655         10  999021.000000       0.21719           0.04717      0.06705         0.32811             0.10766        0.14314
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 14:00:20  1 min 43.296 sec  11540 obs/sec 44.48365         11 1099280.000000       0.21514           0.04629      0.07368         0.32229             0.10387        0.14440
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 14:00:28  1 min 50.973 sec  11734 obs/sec 48.53545         12 1199408.000000       0.21528           0.04635      0.07188         0.32264             0.10410        0.14269
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 14:00:36  1 min 58.553 sec  11919 obs/sec 52.59485         13 1299724.000000       0.21692           0.04705      0.12228         0.31559             0.09960        0.17972
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 14:00:43  2 min  6.149 sec  12072 obs/sec 56.63431         14 1399547.000000       0.21852           0.04775      0.06964         0.33286             0.11080        0.15685
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO:  2017-10-30 14:00:44  2 min  6.892 sec  12071 obs/sec 56.63431         14 1399547.000000       0.21692           0.04705      0.12228         0.31559             0.09960        0.17972
+10-30 14:00:45.169 192.168.231.1:54321   10820  FJ-1-1    INFO: ==============================================================================================================================================================================

@@ -1,0 +1,817 @@
+11-11 19:33:14.556 192.168.231.1:54321   15676  #r thread INFO: Cannot initialize XGBoost backend! Xgboost (enabled GPUs) needs: 
+11-11 19:33:14.556 192.168.231.1:54321   15676  #r thread INFO:   - CUDA 8.0
+11-11 19:33:14.556 192.168.231.1:54321   15676  #r thread INFO: XGboost (minimal version) needs: 
+11-11 19:33:14.556 192.168.231.1:54321   15676  #r thread INFO:   - GCC 4.7+
+11-11 19:33:14.556 192.168.231.1:54321   15676  #r thread INFO: For more details, run in debug mode: `java -Dlog4j.configuration=file:///tmp/log4j.properties -jar h2o.jar`
+11-11 19:33:14.591 192.168.231.1:54321   15676  #r thread INFO: ----- H2O started  -----
+11-11 19:33:14.591 192.168.231.1:54321   15676  #r thread INFO: Build git branch: rel-weierstrass
+11-11 19:33:14.591 192.168.231.1:54321   15676  #r thread INFO: Build git hash: f1f65fe382ac4a0dc4631b9ee1468eb8eef7b27e
+11-11 19:33:14.591 192.168.231.1:54321   15676  #r thread INFO: Build git describe: jenkins-3.14.0.6-6-gf1f65fe38
+11-11 19:33:14.591 192.168.231.1:54321   15676  #r thread INFO: Build project version: 3.14.0.7 (latest version: 3.14.0.7)
+11-11 19:33:14.591 192.168.231.1:54321   15676  #r thread INFO: Build age: 22 days
+11-11 19:33:14.591 192.168.231.1:54321   15676  #r thread INFO: Built by: 'jenkins'
+11-11 19:33:14.591 192.168.231.1:54321   15676  #r thread INFO: Built on: '2017-10-20 18:37:17'
+11-11 19:33:14.591 192.168.231.1:54321   15676  #r thread INFO: Watchdog Build git branch: (unknown)
+11-11 19:33:14.591 192.168.231.1:54321   15676  #r thread INFO: Watchdog Build git hash: (unknown)
+11-11 19:33:14.591 192.168.231.1:54321   15676  #r thread INFO: Watchdog Build git describe: (unknown)
+11-11 19:33:14.592 192.168.231.1:54321   15676  #r thread INFO: Watchdog Build project version: (unknown)
+11-11 19:33:14.592 192.168.231.1:54321   15676  #r thread INFO: Watchdog Built by: (unknown)
+11-11 19:33:14.592 192.168.231.1:54321   15676  #r thread INFO: Watchdog Built on: (unknown)
+11-11 19:33:14.592 192.168.231.1:54321   15676  #r thread INFO: Processed H2O arguments: [-name, sparkling-water-admin-karim_local-1510425191947, -ga_opt_out, -log_level, INFO, -baseport, 54321, -ip, 192.168.231.1, -log_dir, C:\Users\admin-karim\Downloads\WS\com.packt.ScalaML.FraudDetection\h2ologs\local-1510425191947]
+11-11 19:33:14.592 192.168.231.1:54321   15676  #r thread INFO: Java availableProcessors: 8
+11-11 19:33:14.592 192.168.231.1:54321   15676  #r thread INFO: Java heap totalMemory: 560.0 MB
+11-11 19:33:14.592 192.168.231.1:54321   15676  #r thread INFO: Java heap maxMemory: 7.01 GB
+11-11 19:33:14.592 192.168.231.1:54321   15676  #r thread INFO: Java version: Java 1.8.0_144 (from Oracle Corporation)
+11-11 19:33:14.592 192.168.231.1:54321   15676  #r thread INFO: JVM launch parameters: [-Dfile.encoding=Cp1252, -Xbootclasspath/p:C:\Users\admin-karim\.p2\pool\plugins\org.scala-ide.scala211.jars_4.6.1.201706090853\target\jars\scala-library.jar;C:\Users\admin-karim\.p2\pool\plugins\org.scala-ide.scala211.jars_4.6.1.201706090853\target\jars\scala-reflect.jar]
+11-11 19:33:14.592 192.168.231.1:54321   15676  #r thread INFO: OS version: Windows 10 10.0 (amd64)
+11-11 19:33:14.592 192.168.231.1:54321   15676  #r thread INFO: Machine physical memory: 31.54 GB
+11-11 19:33:14.592 192.168.231.1:54321   15676  #r thread INFO: X-h2o-cluster-id: 1510425192993
+11-11 19:33:14.592 192.168.231.1:54321   15676  #r thread INFO: User name: 'admin-karim'
+11-11 19:33:14.592 192.168.231.1:54321   15676  #r thread INFO: Opted out of sending usage metrics.
+11-11 19:33:14.592 192.168.231.1:54321   15676  #r thread INFO: IPv6 stack selected: false
+11-11 19:33:14.592 192.168.231.1:54321   15676  #r thread INFO: Possible IP Address: lo (Software Loopback Interface 1), 127.0.0.1
+11-11 19:33:14.593 192.168.231.1:54321   15676  #r thread INFO: Possible IP Address: lo (Software Loopback Interface 1), 0:0:0:0:0:0:0:1
+11-11 19:33:14.593 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:eth0 (Realtek USB GbE Family Controller)
+11-11 19:33:14.593 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:eth1 (WAN Miniport (IPv6))
+11-11 19:33:14.593 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:net0 (WAN Miniport (IKEv2))
+11-11 19:33:14.593 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:net1 (WAN Miniport (L2TP))
+11-11 19:33:14.593 192.168.231.1:54321   15676  #r thread INFO: Possible IP Address: wlan0 (Killer Wireless-n/a/ac 1535 Wireless Network Adapter), 192.168.0.192
+11-11 19:33:14.593 192.168.231.1:54321   15676  #r thread INFO: Possible IP Address: wlan0 (Killer Wireless-n/a/ac 1535 Wireless Network Adapter), fe80:0:0:0:5902:139f:de8c:3b20%wlan0
+11-11 19:33:14.593 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:eth2 (WAN Miniport (IP))
+11-11 19:33:14.593 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:wlan1 (Microsoft Wi-Fi Direct Virtual Adapter #2)
+11-11 19:33:14.593 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:ppp0 (WAN Miniport (PPPOE))
+11-11 19:33:14.593 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:eth3 (Microsoft Kernel Debug Network Adapter)
+11-11 19:33:14.593 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:wlan2 (Microsoft Wi-Fi Direct Virtual Adapter)
+11-11 19:33:14.593 192.168.231.1:54321   15676  #r thread INFO: Possible IP Address: eth4 (VMware Virtual Ethernet Adapter for VMnet8), 192.168.231.1
+11-11 19:33:14.593 192.168.231.1:54321   15676  #r thread INFO: Possible IP Address: eth4 (VMware Virtual Ethernet Adapter for VMnet8), fe80:0:0:0:f451:26d5:2a94:8290%eth4
+11-11 19:33:14.593 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:net2 (WAN Miniport (PPTP))
+11-11 19:33:14.593 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:eth5 (WAN Miniport (Network Monitor))
+11-11 19:33:14.594 192.168.231.1:54321   15676  #r thread INFO: Possible IP Address: eth6 (VMware Virtual Ethernet Adapter for VMnet1), 192.168.236.1
+11-11 19:33:14.594 192.168.231.1:54321   15676  #r thread INFO: Possible IP Address: eth6 (VMware Virtual Ethernet Adapter for VMnet1), fe80:0:0:0:f012:91c6:8c53:e36b%eth6
+11-11 19:33:14.594 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:eth7 (Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64)
+11-11 19:33:14.594 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:net3 (WAN Miniport (SSTP))
+11-11 19:33:14.594 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:wlan3 (Killer Wireless-n/a/ac 1535 Wireless Network Adapter-WFP Native MAC Layer LightWeight Filter-0000)
+11-11 19:33:14.594 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:wlan4 (Killer Wireless-n/a/ac 1535 Wireless Network Adapter-Virtual WiFi Filter Driver-0000)
+11-11 19:33:14.594 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:wlan5 (Killer Wireless-n/a/ac 1535 Wireless Network Adapter-Native WiFi Filter Driver-0000)
+11-11 19:33:14.594 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:wlan6 (Killer Wireless-n/a/ac 1535 Wireless Network Adapter-QoS Packet Scheduler-0000)
+11-11 19:33:14.594 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:wlan7 (Killer Wireless-n/a/ac 1535 Wireless Network Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000)
+11-11 19:33:14.594 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:wlan8 (Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000)
+11-11 19:33:14.594 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:wlan9 (Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000)
+11-11 19:33:14.594 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:wlan10 (Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000)
+11-11 19:33:14.594 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:wlan11 (Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000)
+11-11 19:33:14.594 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:eth8 (WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000)
+11-11 19:33:14.595 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:eth9 (WAN Miniport (IP)-QoS Packet Scheduler-0000)
+11-11 19:33:14.595 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:eth10 (WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000)
+11-11 19:33:14.595 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:eth11 (WAN Miniport (IPv6)-QoS Packet Scheduler-0000)
+11-11 19:33:14.595 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:eth12 (WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000)
+11-11 19:33:14.595 192.168.231.1:54321   15676  #r thread INFO: Network interface is down: name:eth13 (WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000)
+11-11 19:33:14.595 192.168.231.1:54321   15676  #r thread INFO: H2O node running in unencrypted mode.
+11-11 19:33:14.597 192.168.231.1:54321   15676  #r thread INFO: Internal communication uses port: 54322
+11-11 19:33:14.597 192.168.231.1:54321   15676  #r thread INFO: Listening for HTTP and REST traffic on http://192.168.231.1:54321/
+11-11 19:33:14.662 192.168.231.1:54321   15676  #r thread INFO: H2O cloud name: 'sparkling-water-admin-karim_local-1510425191947' on /192.168.231.1:54321, discovery address /227.235.135.216:58347
+11-11 19:33:14.663 192.168.231.1:54321   15676  #r thread INFO: If you have trouble connecting, try SSH tunneling from your local machine (e.g., via port 55555):
+11-11 19:33:14.663 192.168.231.1:54321   15676  #r thread INFO:   1. Open a terminal and run 'ssh -L 55555:localhost:54321 admin-karim@192.168.231.1'
+11-11 19:33:14.663 192.168.231.1:54321   15676  #r thread INFO:   2. Point your browser to http://localhost:55555
+11-11 19:33:14.690 192.168.231.1:54321   15676  #r thread INFO: Log dir: 'C:\Users\admin-karim\Downloads\WS\com.packt.ScalaML.FraudDetection\h2ologs\local-1510425191947'
+11-11 19:33:14.691 192.168.231.1:54321   15676  #r thread INFO: Cur dir: 'C:\Users\admin-karim\Downloads\WS\com.packt.ScalaML.FraudDetection'
+11-11 19:33:14.699 192.168.231.1:54321   15676  #r thread INFO: Using HDFS configuration from C:/Users/admin-karim/Downloads/spark-2.1.1-bin-hadoop2.7/conf
+11-11 19:33:14.699 192.168.231.1:54321   15676  #r thread INFO: HDFS subsystem successfully initialized
+11-11 19:33:14.706 192.168.231.1:54321   15676  #r thread INFO: S3 subsystem successfully initialized
+11-11 19:33:14.706 192.168.231.1:54321   15676  #r thread INFO: Flow dir: 'C:/Users/admin-karim/h2oflows'
+11-11 19:33:14.716 192.168.231.1:54321   15676  #r thread INFO: Cloud of size 1 formed [/192.168.231.1:54321]
+11-11 19:33:14.733 192.168.231.1:54321   15676  #r thread INFO: Registered parsers: [GUESS, ARFF, XLS, SVMLight, AVRO, ORC, PARQUET, CSV]
+11-11 19:33:14.734 192.168.231.1:54321   15676  #r thread INFO: Watchdog extension initialized
+11-11 19:33:14.734 192.168.231.1:54321   15676  #r thread INFO: Registered 1 core extensions in: 15ms
+11-11 19:33:14.734 192.168.231.1:54321   15676  #r thread INFO: Registered H2O core extensions: [Watchdog]
+11-11 19:33:15.047 192.168.231.1:54321   15676  #r thread INFO: Registered: 158 REST APIs in: 313ms
+11-11 19:33:15.048 192.168.231.1:54321   15676  #r thread INFO: Registered REST API extensions: [Algos, AutoML, Core V3, Core V4]
+11-11 19:33:15.154 192.168.231.1:54321   15676  #r thread INFO: Registered: 242 schemas in 106ms
+11-11 19:33:15.155 192.168.231.1:54321   15676  #r thread INFO: H2O started in 1230ms
+11-11 19:33:15.155 192.168.231.1:54321   15676  #r thread INFO: 
+11-11 19:33:15.155 192.168.231.1:54321   15676  #r thread INFO: Open H2O Flow in your web browser: http://192.168.231.1:54321
+11-11 19:33:15.155 192.168.231.1:54321   15676  #r thread INFO: 
+11-11 19:33:40.707 192.168.231.1:54321   15676  main      INFO: Locking cloud to new members, because water.Lockable
+11-11 19:33:45.559 192.168.231.1:54321   15676  FJ-1-7    INFO: Building H2O DeepLearning model with these parameters:
+11-11 19:33:45.619 192.168.231.1:54321   15676  FJ-1-7    INFO: {"_train":{"name":"train_unsupervised","type":"Key"},"_valid":null,"_nfolds":0,"_keep_cross_validation_predictions":false,"_keep_cross_validation_fold_assignment":false,"_parallelize_cross_validation":true,"_auto_rebalance":true,"_seed":42,"_fold_assignment":"AUTO","_categorical_encoding":"AUTO","_max_categorical_levels":10,"_distribution":"AUTO","_tweedie_power":1.5,"_quantile_alpha":0.5,"_huber_alpha":0.9,"_ignored_columns":["Class"],"_ignore_const_cols":false,"_weights_column":null,"_offset_column":null,"_fold_column":null,"_is_cv_model":false,"_score_each_iteration":false,"_max_runtime_secs":0.0,"_stopping_rounds":5,"_stopping_metric":"AUTO","_stopping_tolerance":0.0,"_response_column":null,"_balance_classes":false,"_max_after_balance_size":5.0,"_class_sampling_factors":null,"_max_confusion_matrix_size":20,"_checkpoint":null,"_pretrained_autoencoder":null,"_overwrite_with_best_model":true,"_autoencoder":true,"_use_all_factor_levels":true,"_standardize":true,"_activation":"Tanh","_hidden":[10,2,10],"_epochs":100.0,"_train_samples_per_iteration":-2,"_target_ratio_comm_to_comp":0.05,"_adaptive_rate":true,"_rho":0.99,"_epsilon":1.0E-8,"_rate":0.005,"_rate_annealing":1.0E-6,"_rate_decay":1.0,"_momentum_start":0.0,"_momentum_ramp":1000000.0,"_momentum_stable":0.0,"_nesterov_accelerated_gradient":true,"_input_dropout_ratio":0.0,"_hidden_dropout_ratios":null,"_l1":0.0,"_l2":0.0,"_max_w2":3.4028235E38,"_initial_weight_distribution":"UniformAdaptive","_initial_weight_scale":1.0,"_initial_weights":null,"_initial_biases":null,"_loss":"Automatic","_score_interval":5.0,"_score_training_samples":10000,"_score_validation_samples":0,"_score_duty_cycle":0.1,"_classification_stop":0.0,"_regression_stop":1.0E-6,"_quiet_mode":false,"_score_validation_sampling":"Uniform","_diagnostics":true,"_variable_importances":true,"_fast_mode":true,"_force_load_balance":false,"_replicate_training_data":true,"_single_node_mode":false,"_shuffle_training_data":false,"_missing_values_handling":"MeanImputation","_sparse":false,"_col_major":false,"_average_activation":0.0,"_sparsity_beta":0.0,"_max_categorical_features":2147483647,"_reproducible":true,"_export_weights_and_biases":false,"_elastic_averaging":false,"_elastic_averaging_moving_rate":0.9,"_elastic_averaging_regularization":0.001,"_mini_batch_size":1}
+11-11 19:33:45.619 192.168.231.1:54321   15676  FJ-1-7    INFO: Dropping ignored columns: [Class]
+11-11 19:33:45.621 192.168.231.1:54321   15676  FJ-1-7    WARN: Reproducibility enforced - using only 1 thread - can be slow.
+11-11 19:33:45.621 192.168.231.1:54321   15676  FJ-1-7    INFO: Rebalancing train dataset into 1 chunks.
+11-11 19:33:46.012 192.168.231.1:54321   15676  FJ-1-7    INFO: Building the model on 29 numeric features and 5 (one-hot encoded) categorical features.
+11-11 19:33:46.015 192.168.231.1:54321   15676  FJ-1-7    INFO: _replicate_training_data: Disabling replicate_training_data on 1 node.
+11-11 19:33:46.015 192.168.231.1:54321   15676  FJ-1-7    INFO: _categorical_encoding: Automatically enabling OneHotInternal categorical encoding.
+11-11 19:33:46.015 192.168.231.1:54321   15676  FJ-1-7    INFO: _adaptive_rate: Using automatic learning rate. Ignoring the following input parameters: rate, rate_decay, rate_annealing, momentum_start, momentum_ramp, momentum_stable.
+11-11 19:33:46.015 192.168.231.1:54321   15676  FJ-1-7    INFO: _stopping_metric: Automatically setting stopping_metric to MSE for autoencoder.
+11-11 19:33:46.015 192.168.231.1:54321   15676  FJ-1-7    INFO: _reproducibility: Automatically enabling force_load_balancing and score_each_iteration to enforce reproducibility. Turning off replicate_training_data.
+11-11 19:33:46.016 192.168.231.1:54321   15676  FJ-1-7    INFO: _reproducibility: Also setting train_samples_per_iteration to -1 since auto-tuning (-2) was specified.
+11-11 19:33:46.074 192.168.231.1:54321   15676  FJ-1-7    INFO: Created random initial model state.
+11-11 19:33:46.074 192.168.231.1:54321   15676  FJ-1-7    INFO: Model category: Auto-Encoder
+11-11 19:33:46.076 192.168.231.1:54321   15676  FJ-1-7    INFO: Number of model parameters (weights/biases): 776
+11-11 19:33:46.077 192.168.231.1:54321   15676  FJ-1-7    INFO: One epoch corresponds to 113922 training data rows.
+11-11 19:33:46.116 192.168.231.1:54321   15676  FJ-1-7    INFO: Number of chunks of the training data: 1
+11-11 19:33:46.116 192.168.231.1:54321   15676  FJ-1-7    INFO: Setting train_samples_per_iteration (-1) to one epoch: #rows (113922).
+11-11 19:33:46.116 192.168.231.1:54321   15676  FJ-1-7    INFO: Enabling training data shuffling to avoid training rows in the same order over and over (no Hogwild since there's only 1 chunk).
+11-11 19:33:46.116 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring the null model of the autoencoder.
+11-11 19:33:46.118 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring the auto-encoder.
+11-11 19:33:46.243 192.168.231.1:54321   15676  FJ-1-7    INFO: Computing variable importances.
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO: Model Metrics Type: AutoEncoder
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:  Description: N/A
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:  model id: DeepLearning_model_1510425192993_1
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:  frame id: train_unsupervised.temporary.sample.8.78%
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:  MSE: 0.035340294
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:  RMSE: 0.18799014
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO: Variable Importances:
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:         Variable Relative Importance Scaled Importance Percentage
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:              V25            1.000000          1.000000   0.042915
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:              V16            0.878234          0.878234   0.037689
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:               V2            0.877706          0.877706   0.037666
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:              V13            0.839773          0.839773   0.036039
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:              V14            0.835421          0.835421   0.035852
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:              V21            0.806149          0.806149   0.034596
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:              V24            0.801342          0.801342   0.034389
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:              V12            0.775922          0.775922   0.033298
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:              V26            0.775873          0.775873   0.033296
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:              V15            0.767108          0.767108   0.032920
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO: ---
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:              V19            0.635378          0.635378   0.027267
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:              V18            0.632183          0.632183   0.027130
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr2            0.593534          0.593534   0.025471
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:              V22            0.587433          0.587433   0.025209
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:              V17            0.585001          0.585001   0.025105
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:               V1            0.574986          0.574986   0.024675
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:               V3            0.574294          0.574294   0.024646
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:              V20            0.560285          0.560285   0.024044
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:               V5            0.499401          0.499401   0.021432
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO: Time.missing(NA)            0.000000          0.000000   0.000000
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO: Status of Neuron Layers (auto-encoder, gaussian distribution, Quadratic loss, 776 weights/biases, 13.6 KB, 0 training samples, mini-batch size 1):
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:  Layer Units  Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:      1    34 Input  0.00 %                                                                                        
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:      2    10  Tanh       0 0.000000 0.000000  1.004224 0.000000 0.000000   -0.019112   0.211976  0.000000 0.000000
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:      3     2  Tanh       0 0.000000 0.000000  1.004224 0.000000 0.000000   -0.027893   0.435090  0.000000 0.000000
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:      4    10  Tanh       0 0.000000 0.000000  1.004224 0.000000 0.000000    0.035842   0.370241  0.000000 0.000000
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:      5    34  Tanh         0.000000 0.000000  1.004224 0.000000 0.000000   -0.001135   0.210690  0.000000 0.000000
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring History:
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:            Timestamp   Duration  Training Speed  Epochs Iterations  Samples Training RMSE Training MSE
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:46  0.700 sec 0.00000 obs/sec 0.00000          0 0.000000       0.18799      0.03534
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO: Time taken for scoring and diagnostics:  0.128 sec
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO: Training time:  0.747 sec (scoring:  0.128 sec). Processed 0 samples (0.000 epochs).
+11-11 19:33:46.291 192.168.231.1:54321   15676  FJ-1-7    INFO: Iterations: 0. Epochs: 0.00000. Speed: 0 samples/sec.
+11-11 19:33:46.294 192.168.231.1:54321   15676  FJ-1-7    INFO: Total setup time:  0.572 sec
+11-11 19:33:46.294 192.168.231.1:54321   15676  FJ-1-7    INFO: Starting to train the Deep Learning model.
+11-11 19:33:48.942 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring the auto-encoder.
+11-11 19:33:48.990 192.168.231.1:54321   15676  FJ-1-7    INFO: Computing variable importances.
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO: Model Metrics Type: AutoEncoder
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:  Description: N/A
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:  model id: DeepLearning_model_1510425192993_1
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:  frame id: train_unsupervised.temporary.sample.8.78%
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:  MSE: 0.009516116
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:  RMSE: 0.097550586
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO: Variable Importances:
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:         Variable Relative Importance Scaled Importance Percentage
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr1            1.000000          1.000000   0.074105
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr4            0.794377          0.794377   0.058868
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr3            0.726032          0.726032   0.053803
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr2            0.717390          0.717390   0.053162
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:              V14            0.522896          0.522896   0.038749
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:              V25            0.513484          0.513484   0.038052
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:               V8            0.452657          0.452657   0.033544
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:              V27            0.443358          0.443358   0.032855
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:              V21            0.442240          0.442240   0.032772
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:               V7            0.438033          0.438033   0.032461
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO: ---
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:              V20            0.294370          0.294370   0.021814
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:              V11            0.291722          0.291722   0.021618
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:              V17            0.287740          0.287740   0.021323
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:               V4            0.283441          0.283441   0.021004
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:               V3            0.268819          0.268819   0.019921
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:               V1            0.262917          0.262917   0.019484
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:              V22            0.193120          0.193120   0.014311
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:              V28            0.179972          0.179972   0.013337
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:              V15            0.130623          0.130623   0.009680
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO: Time.missing(NA)            0.000000          0.000000   0.000000
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO: Status of Neuron Layers (auto-encoder, gaussian distribution, Quadratic loss, 776 weights/biases, 16.2 KB, 113,922 training samples, mini-batch size 1):
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:  Layer Units  Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:      1    34 Input  0.00 %                                                                                        
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:      2    10  Tanh       0 0.000000 0.000000  0.340843 0.269654 0.000000   -0.013454   0.209904  0.055992 0.099492
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:      3     2  Tanh       0 0.000000 0.000000  0.023231 0.012031 0.000000   -0.033367   0.447523  0.016093 0.058455
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:      4    10  Tanh       0 0.000000 0.000000  0.008529 0.002308 0.000000    0.157872   0.375055  0.158256 0.227404
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:      5    34  Tanh         0.000000 0.000000  0.053151 0.098051 0.000000    0.034623   0.346330  0.016508 0.170311
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring History:
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:            Timestamp   Duration  Training Speed  Epochs Iterations       Samples Training RMSE Training MSE
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:46  0.700 sec 0.00000 obs/sec 0.00000          0      0.000000       0.18799      0.03534
+11-11 19:33:49.000 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:48  3.446 sec   42208 obs/sec 1.00000          1 113922.000000       0.09755      0.00952
+11-11 19:33:49.001 192.168.231.1:54321   15676  FJ-1-7    INFO: Time taken for scoring and diagnostics:  0.048 sec
+11-11 19:33:51.673 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring the auto-encoder.
+11-11 19:33:51.722 192.168.231.1:54321   15676  FJ-1-7    INFO: Computing variable importances.
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO: Model Metrics Type: AutoEncoder
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:  Description: N/A
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:  model id: DeepLearning_model_1510425192993_1
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:  frame id: train_unsupervised.temporary.sample.8.78%
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:  MSE: 0.009554356
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:  RMSE: 0.09774639
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO: Variable Importances:
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:         Variable Relative Importance Scaled Importance Percentage
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr2            1.000000          1.000000   0.093449
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr1            0.941851          0.941851   0.088015
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr4            0.745233          0.745233   0.069641
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr3            0.694404          0.694404   0.064891
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:              V14            0.372780          0.372780   0.034836
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:              V10            0.349705          0.349705   0.032679
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:               V8            0.333399          0.333399   0.031156
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:              V21            0.332017          0.332017   0.031027
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:               V9            0.328827          0.328827   0.030728
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:              V25            0.326870          0.326870   0.030546
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO: ---
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:              V24            0.207537          0.207537   0.019394
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:              V20            0.205693          0.205693   0.019222
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:               V4            0.194596          0.194596   0.018185
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:              V17            0.189007          0.189007   0.017662
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:               V1            0.166931          0.166931   0.015599
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:              V28            0.143301          0.143301   0.013391
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:               V3            0.139242          0.139242   0.013012
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:              V22            0.116182          0.116182   0.010857
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:              V15            0.099532          0.099532   0.009301
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO: Time.missing(NA)            0.000000          0.000000   0.000000
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO: Status of Neuron Layers (auto-encoder, gaussian distribution, Quadratic loss, 776 weights/biases, 16.2 KB, 227,844 training samples, mini-batch size 1):
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:  Layer Units  Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:      1    34 Input  0.00 %                                                                                        
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:      2    10  Tanh       0 0.000000 0.000000  0.620734 0.286907 0.000000   -0.010178   0.226680  0.002293 0.200765
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:      3     2  Tanh       0 0.000000 0.000000  0.041042 0.024357 0.000000   -0.020870   0.439605  0.075277 0.051818
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:      4    10  Tanh       0 0.000000 0.000000  0.009644 0.007730 0.000000    0.141176   0.318580  0.111125 0.275047
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:      5    34  Tanh         0.000000 0.000000  0.120810 0.245781 0.000000    0.048876   0.438381  0.005137 0.224939
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring History:
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:            Timestamp   Duration  Training Speed  Epochs Iterations       Samples Training RMSE Training MSE
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:46  0.700 sec 0.00000 obs/sec 0.00000          0      0.000000       0.18799      0.03534
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:48  3.446 sec   42208 obs/sec 1.00000          1 113922.000000       0.09755      0.00952
+11-11 19:33:51.724 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:51  6.178 sec   42334 obs/sec 2.00000          2 227844.000000       0.09775      0.00955
+11-11 19:33:51.725 192.168.231.1:54321   15676  FJ-1-7    INFO: Time taken for scoring and diagnostics:  0.049 sec
+11-11 19:33:51.725 192.168.231.1:54321   15676  FJ-1-7    INFO: Training time:  6.181 sec (scoring:  0.225 sec). Processed 227,844 samples (2.000 epochs).
+11-11 19:33:51.725 192.168.231.1:54321   15676  FJ-1-7    INFO: Iterations: 2. Epochs: 2.00000. Speed: 42,318 samples/sec. Estimated time left:  5 min  2.869 sec
+11-11 19:33:54.310 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring the auto-encoder.
+11-11 19:33:54.357 192.168.231.1:54321   15676  FJ-1-7    INFO: Computing variable importances.
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO: Model Metrics Type: AutoEncoder
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:  Description: N/A
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:  model id: DeepLearning_model_1510425192993_1
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:  frame id: train_unsupervised.temporary.sample.8.78%
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:  MSE: 0.0094700055
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:  RMSE: 0.097313955
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO: Variable Importances:
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:         Variable Relative Importance Scaled Importance Percentage
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr2            1.000000          1.000000   0.118414
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr1            0.808252          0.808252   0.095708
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr4            0.651033          0.651033   0.077091
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr3            0.599648          0.599648   0.071007
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:              V14            0.266558          0.266558   0.031564
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:               V8            0.262149          0.262149   0.031042
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:              V25            0.247426          0.247426   0.029299
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:              V21            0.247145          0.247145   0.029265
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:               V7            0.246272          0.246272   0.029162
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:              V10            0.244442          0.244442   0.028945
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO: ---
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:               V4            0.162111          0.162111   0.019196
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:              V20            0.153562          0.153562   0.018184
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:              V18            0.134121          0.134121   0.015882
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:               V1            0.129768          0.129768   0.015366
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:              V17            0.117751          0.117751   0.013943
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:              V28            0.112971          0.112971   0.013377
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:              V22            0.086397          0.086397   0.010231
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:               V3            0.082254          0.082254   0.009740
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:              V15            0.071365          0.071365   0.008451
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO: Time.missing(NA)            0.000000          0.000000   0.000000
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO: Status of Neuron Layers (auto-encoder, gaussian distribution, Quadratic loss, 776 weights/biases, 16.2 KB, 341,766 training samples, mini-batch size 1):
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:  Layer Units  Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:      1    34 Input  0.00 %                                                                                        
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:      2    10  Tanh       0 0.000000 0.000000  0.814986 0.248954 0.000000   -0.007657   0.242893 -0.037835 0.210268
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:      3     2  Tanh       0 0.000000 0.000000  0.078352 0.047771 0.000000   -0.026362   0.473069  0.123235 0.018398
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:      4    10  Tanh       0 0.000000 0.000000  0.015715 0.027535 0.000000    0.140460   0.290976  0.097898 0.265391
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:      5    34  Tanh         0.000000 0.000000  0.114060 0.201256 0.000000    0.057767   0.506074  0.002940 0.240334
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring History:
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:            Timestamp   Duration  Training Speed  Epochs Iterations       Samples Training RMSE Training MSE
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:46  0.700 sec 0.00000 obs/sec 0.00000          0      0.000000       0.18799      0.03534
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:48  3.446 sec   42208 obs/sec 1.00000          1 113922.000000       0.09755      0.00952
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:51  6.178 sec   42334 obs/sec 2.00000          2 227844.000000       0.09775      0.00955
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:54  8.813 sec   42881 obs/sec 3.00000          3 341766.000000       0.09731      0.00947
+11-11 19:33:54.361 192.168.231.1:54321   15676  FJ-1-7    INFO: Time taken for scoring and diagnostics:  0.047 sec
+11-11 19:33:56.843 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring the auto-encoder.
+11-11 19:33:56.890 192.168.231.1:54321   15676  FJ-1-7    INFO: Computing variable importances.
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO: Model Metrics Type: AutoEncoder
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:  Description: N/A
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:  model id: DeepLearning_model_1510425192993_1
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:  frame id: train_unsupervised.temporary.sample.8.78%
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:  MSE: 0.009482405
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:  RMSE: 0.09737764
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO: Variable Importances:
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:         Variable Relative Importance Scaled Importance Percentage
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr2            1.000000          1.000000   0.129329
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr1            0.759106          0.759106   0.098175
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr3            0.618524          0.618524   0.079993
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr4            0.595115          0.595115   0.076966
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:               V8            0.229031          0.229031   0.029620
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:              V14            0.225609          0.225609   0.029178
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:               V2            0.219997          0.219997   0.028452
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:           Amount            0.219769          0.219769   0.028423
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:               V7            0.219111          0.219111   0.028337
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:              V16            0.217106          0.217106   0.028078
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO: ---
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:              V11            0.137710          0.137710   0.017810
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:              V20            0.136132          0.136132   0.017606
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:              V18            0.127682          0.127682   0.016513
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:               V1            0.113979          0.113979   0.014741
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:              V28            0.102668          0.102668   0.013278
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:              V17            0.100041          0.100041   0.012938
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:              V22            0.074306          0.074306   0.009610
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:               V3            0.073734          0.073734   0.009536
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:              V15            0.050629          0.050629   0.006548
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO: Time.missing(NA)            0.000000          0.000000   0.000000
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO: Status of Neuron Layers (auto-encoder, gaussian distribution, Quadratic loss, 776 weights/biases, 16.2 KB, 455,688 training samples, mini-batch size 1):
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:  Layer Units  Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:      1    34 Input  0.00 %                                                                                        
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:      2    10  Tanh       0 0.000000 0.000000  0.881933 0.214831 0.000000   -0.007668   0.250171 -0.047022 0.218788
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:      3     2  Tanh       0 0.000000 0.000000  0.124021 0.118683 0.000000   -0.024266   0.494126  0.166118 0.007332
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:      4    10  Tanh       0 0.000000 0.000000  0.017357 0.030084 0.000000    0.135643   0.276165  0.087460 0.257548
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:      5    34  Tanh         0.000000 0.000000  0.179170 0.272483 0.000000    0.061508   0.569560  0.002457 0.249204
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring History:
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:            Timestamp   Duration  Training Speed  Epochs Iterations       Samples Training RMSE Training MSE
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:46  0.700 sec 0.00000 obs/sec 0.00000          0      0.000000       0.18799      0.03534
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:48  3.446 sec   42208 obs/sec 1.00000          1 113922.000000       0.09755      0.00952
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:51  6.178 sec   42334 obs/sec 2.00000          2 227844.000000       0.09775      0.00955
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:54  8.813 sec   42881 obs/sec 3.00000          3 341766.000000       0.09731      0.00947
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:56 11.346 sec   43581 obs/sec 4.00000          4 455688.000000       0.09738      0.00948
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO: Time taken for scoring and diagnostics:  0.047 sec
+11-11 19:33:56.892 192.168.231.1:54321   15676  FJ-1-7    INFO: Training time: 11.348 sec (scoring:  0.319 sec). Processed 455,688 samples (4.000 epochs).
+11-11 19:33:56.893 192.168.231.1:54321   15676  FJ-1-7    INFO: Iterations: 4. Epochs: 4.00000. Speed: 43,577 samples/sec. Estimated time left:  4 min 32.352 sec
+11-11 19:33:59.379 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring the auto-encoder.
+11-11 19:33:59.424 192.168.231.1:54321   15676  FJ-1-7    INFO: Computing variable importances.
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO: Model Metrics Type: AutoEncoder
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:  Description: N/A
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:  model id: DeepLearning_model_1510425192993_1
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:  frame id: train_unsupervised.temporary.sample.8.78%
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:  MSE: 0.0094633335
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:  RMSE: 0.09727967
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO: Variable Importances:
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:         Variable Relative Importance Scaled Importance Percentage
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr2            1.000000          1.000000   0.133821
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr1            0.732569          0.732569   0.098033
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr4            0.620088          0.620088   0.082981
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr3            0.608406          0.608406   0.081417
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:              V24            0.234011          0.234011   0.031316
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:               V8            0.213660          0.213660   0.028592
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:               V2            0.212679          0.212679   0.028461
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:              V14            0.210973          0.210973   0.028233
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:               V7            0.209298          0.209298   0.028008
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:              V16            0.207685          0.207685   0.027793
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO: ---
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:              V26            0.122077          0.122077   0.016336
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:              V18            0.119255          0.119255   0.015959
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:              V11            0.118326          0.118326   0.015834
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:               V1            0.108016          0.108016   0.014455
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:              V28            0.095970          0.095970   0.012843
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:              V17            0.092844          0.092844   0.012425
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:               V3            0.064032          0.064032   0.008569
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:              V22            0.062902          0.062902   0.008418
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:              V15            0.042657          0.042657   0.005708
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO: Time.missing(NA)            0.000000          0.000000   0.000000
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO: Status of Neuron Layers (auto-encoder, gaussian distribution, Quadratic loss, 776 weights/biases, 16.2 KB, 569,610 training samples, mini-batch size 1):
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:  Layer Units  Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:      1    34 Input  0.00 %                                                                                        
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:      2    10  Tanh       0 0.000000 0.000000  0.893530 0.201861 0.000000   -0.006671   0.261216 -0.060098 0.245973
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:      3     2  Tanh       0 0.000000 0.000000  0.123529 0.106916 0.000000   -0.019115   0.505554  0.188863 0.018991
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:      4    10  Tanh       0 0.000000 0.000000  0.020782 0.031575 0.000000    0.123545   0.272540  0.085423 0.246399
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:      5    34  Tanh         0.000000 0.000000  0.187329 0.281092 0.000000    0.062866   0.613706  0.001248 0.249752
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring History:
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:            Timestamp   Duration  Training Speed  Epochs Iterations       Samples Training RMSE Training MSE
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:46  0.700 sec 0.00000 obs/sec 0.00000          0      0.000000       0.18799      0.03534
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:48  3.446 sec   42208 obs/sec 1.00000          1 113922.000000       0.09755      0.00952
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:51  6.178 sec   42334 obs/sec 2.00000          2 227844.000000       0.09775      0.00955
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:54  8.813 sec   42881 obs/sec 3.00000          3 341766.000000       0.09731      0.00947
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:56 11.346 sec   43581 obs/sec 4.00000          4 455688.000000       0.09738      0.00948
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:59 13.880 sec   44005 obs/sec 5.00000          5 569610.000000       0.09728      0.00946
+11-11 19:33:59.428 192.168.231.1:54321   15676  FJ-1-7    INFO: Time taken for scoring and diagnostics:  0.046 sec
+11-11 19:34:01.936 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring the auto-encoder.
+11-11 19:34:01.982 192.168.231.1:54321   15676  FJ-1-7    INFO: Computing variable importances.
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO: Model Metrics Type: AutoEncoder
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:  Description: N/A
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:  model id: DeepLearning_model_1510425192993_1
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:  frame id: train_unsupervised.temporary.sample.8.78%
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:  MSE: 0.009484156
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:  RMSE: 0.097386636
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO: Variable Importances:
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:         Variable Relative Importance Scaled Importance Percentage
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr2            1.000000          1.000000   0.133944
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr1            0.714757          0.714757   0.095737
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr4            0.676442          0.676442   0.090605
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr3            0.566643          0.566643   0.075898
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:              V24            0.324605          0.324605   0.043479
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:               V4            0.224504          0.224504   0.030071
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:               V8            0.211161          0.211161   0.028284
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:           Amount            0.209103          0.209103   0.028008
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:               V7            0.208462          0.208462   0.027922
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:               V2            0.206233          0.206233   0.027624
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO: ---
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:               V1            0.117160          0.117160   0.015693
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:              V18            0.112914          0.112914   0.015124
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:              V26            0.099323          0.099323   0.013304
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:              V11            0.098155          0.098155   0.013147
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:              V28            0.091415          0.091415   0.012245
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:              V17            0.087948          0.087948   0.011780
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:               V3            0.067495          0.067495   0.009040
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:              V22            0.062171          0.062171   0.008327
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:              V15            0.040039          0.040039   0.005363
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO: Time.missing(NA)            0.000000          0.000000   0.000000
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO: Status of Neuron Layers (auto-encoder, gaussian distribution, Quadratic loss, 776 weights/biases, 16.2 KB, 683,532 training samples, mini-batch size 1):
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:  Layer Units  Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:      1    34 Input  0.00 %                                                                                        
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:      2    10  Tanh       0 0.000000 0.000000  0.817117 0.224484 0.000000   -0.005811   0.270988 -0.047604 0.278618
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:      3     2  Tanh       0 0.000000 0.000000  0.113143 0.072606 0.000000   -0.014817   0.512215  0.208020 0.027029
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:      4    10  Tanh       0 0.000000 0.000000  0.026190 0.043119 0.000000    0.104897   0.273306  0.078569 0.240640
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:      5    34  Tanh         0.000000 0.000000  0.176349 0.263133 0.000000    0.060071   0.625396  0.002564 0.240338
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring History:
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:            Timestamp   Duration  Training Speed  Epochs Iterations       Samples Training RMSE Training MSE
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:46  0.700 sec 0.00000 obs/sec 0.00000          0      0.000000       0.18799      0.03534
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:48  3.446 sec   42208 obs/sec 1.00000          1 113922.000000       0.09755      0.00952
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:51  6.178 sec   42334 obs/sec 2.00000          2 227844.000000       0.09775      0.00955
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:54  8.813 sec   42881 obs/sec 3.00000          3 341766.000000       0.09731      0.00947
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:56 11.346 sec   43581 obs/sec 4.00000          4 455688.000000       0.09738      0.00948
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:59 13.880 sec   44005 obs/sec 5.00000          5 569610.000000       0.09728      0.00946
+11-11 19:34:01.984 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:01 16.439 sec   44224 obs/sec 6.00000          6 683532.000000       0.09739      0.00948
+11-11 19:34:01.985 192.168.231.1:54321   15676  FJ-1-7    INFO: Time taken for scoring and diagnostics:  0.047 sec
+11-11 19:34:01.985 192.168.231.1:54321   15676  FJ-1-7    INFO: Training time: 16.441 sec (scoring:  0.412 sec). Processed 683,532 samples (6.000 epochs).
+11-11 19:34:01.985 192.168.231.1:54321   15676  FJ-1-7    INFO: Iterations: 6. Epochs: 6.00000. Speed: 44,221 samples/sec. Estimated time left:  4 min 17.575 sec
+11-11 19:34:04.432 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring the auto-encoder.
+11-11 19:34:04.479 192.168.231.1:54321   15676  FJ-1-7    INFO: Computing variable importances.
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO: Model Metrics Type: AutoEncoder
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:  Description: N/A
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:  model id: DeepLearning_model_1510425192993_1
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:  frame id: train_unsupervised.temporary.sample.8.78%
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:  MSE: 0.009438527
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:  RMSE: 0.097152084
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO: Variable Importances:
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:         Variable Relative Importance Scaled Importance Percentage
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr2            1.000000          1.000000   0.133805
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr1            0.686579          0.686579   0.091868
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr3            0.610064          0.610064   0.081629
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr4            0.605089          0.605089   0.080964
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:              V24            0.418085          0.418085   0.055942
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:               V4            0.265991          0.265991   0.035591
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:           Amount            0.217328          0.217328   0.029080
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:               V7            0.206387          0.206387   0.027616
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:               V8            0.200957          0.200957   0.026889
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:               V2            0.198026          0.198026   0.026497
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO: ---
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:              V20            0.125732          0.125732   0.016824
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:              V18            0.107836          0.107836   0.014429
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:              V11            0.098623          0.098623   0.013196
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:              V26            0.093022          0.093022   0.012447
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:              V28            0.087663          0.087663   0.011730
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:              V17            0.079553          0.079553   0.010645
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:               V3            0.074871          0.074871   0.010018
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:              V22            0.064635          0.064635   0.008649
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:              V15            0.043286          0.043286   0.005792
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO: Time.missing(NA)            0.000000          0.000000   0.000000
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO: Status of Neuron Layers (auto-encoder, gaussian distribution, Quadratic loss, 776 weights/biases, 16.2 KB, 797,454 training samples, mini-batch size 1):
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:  Layer Units  Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:      1    34 Input  0.00 %                                                                                        
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:      2    10  Tanh       0 0.000000 0.000000  0.899498 0.189901 0.000000   -0.005009   0.280941 -0.033432 0.304516
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:      3     2  Tanh       0 0.000000 0.000000  0.122949 0.101920 0.000000   -0.002382   0.517276  0.200086 0.022898
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:      4    10  Tanh       0 0.000000 0.000000  0.026635 0.036656 0.000000    0.085017   0.273632  0.072331 0.241935
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:      5    34  Tanh         0.000000 0.000000  0.193882 0.264356 0.000000    0.055087   0.621250  0.003309 0.235843
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring History:
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:            Timestamp   Duration  Training Speed  Epochs Iterations       Samples Training RMSE Training MSE
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:46  0.700 sec 0.00000 obs/sec 0.00000          0      0.000000       0.18799      0.03534
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:48  3.446 sec   42208 obs/sec 1.00000          1 113922.000000       0.09755      0.00952
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:51  6.178 sec   42334 obs/sec 2.00000          2 227844.000000       0.09775      0.00955
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:54  8.813 sec   42881 obs/sec 3.00000          3 341766.000000       0.09731      0.00947
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:56 11.346 sec   43581 obs/sec 4.00000          4 455688.000000       0.09738      0.00948
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:59 13.880 sec   44005 obs/sec 5.00000          5 569610.000000       0.09728      0.00946
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:01 16.439 sec   44224 obs/sec 6.00000          6 683532.000000       0.09739      0.00948
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:04 18.935 sec   44540 obs/sec 7.00000          7 797454.000000       0.09715      0.00944
+11-11 19:34:04.482 192.168.231.1:54321   15676  FJ-1-7    INFO: Time taken for scoring and diagnostics:  0.048 sec
+11-11 19:34:06.905 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring the auto-encoder.
+11-11 19:34:06.952 192.168.231.1:54321   15676  FJ-1-7    INFO: Computing variable importances.
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO: Model Metrics Type: AutoEncoder
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:  Description: N/A
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:  model id: DeepLearning_model_1510425192993_1
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:  frame id: train_unsupervised.temporary.sample.8.78%
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:  MSE: 0.009813883
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:  RMSE: 0.09906504
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO: Variable Importances:
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:         Variable Relative Importance Scaled Importance Percentage
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr2            1.000000          1.000000   0.128140
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr1            0.692650          0.692650   0.088756
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr4            0.622535          0.622535   0.079772
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr3            0.592052          0.592052   0.075866
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:              V24            0.563527          0.563527   0.072211
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:               V4            0.328058          0.328058   0.042038
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:           Amount            0.243819          0.243819   0.031243
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:               V7            0.212832          0.212832   0.027272
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:               V2            0.208861          0.208861   0.026764
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:               V8            0.203234          0.203234   0.026042
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO: ---
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:              V20            0.131942          0.131942   0.016907
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:              V26            0.129104          0.129104   0.016543
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:              V18            0.104919          0.104919   0.013444
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:              V11            0.099169          0.099169   0.012708
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:               V3            0.094150          0.094150   0.012064
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:              V28            0.086510          0.086510   0.011085
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:              V17            0.066227          0.066227   0.008486
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:              V22            0.062684          0.062684   0.008032
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:              V15            0.039831          0.039831   0.005104
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO: Time.missing(NA)            0.000000          0.000000   0.000000
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO: Status of Neuron Layers (auto-encoder, gaussian distribution, Quadratic loss, 776 weights/biases, 16.2 KB, 911,376 training samples, mini-batch size 1):
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:  Layer Units  Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:      1    34 Input  0.00 %                                                                                        
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:      2    10  Tanh       0 0.000000 0.000000  0.899070 0.196261 0.000000   -0.004696   0.290231 -0.041913 0.352081
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:      3     2  Tanh       0 0.000000 0.000000  0.120077 0.118608 0.000000    0.002724   0.520450  0.202239 0.012913
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:      4    10  Tanh       0 0.000000 0.000000  0.035499 0.047370 0.000000    0.073560   0.269340  0.073835 0.244397
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:      5    34  Tanh         0.000000 0.000000  0.216579 0.268309 0.000000    0.053640   0.609399  0.004878 0.237690
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring History:
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:            Timestamp   Duration  Training Speed  Epochs Iterations       Samples Training RMSE Training MSE
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:46  0.700 sec 0.00000 obs/sec 0.00000          0      0.000000       0.18799      0.03534
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:48  3.446 sec   42208 obs/sec 1.00000          1 113922.000000       0.09755      0.00952
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:51  6.178 sec   42334 obs/sec 2.00000          2 227844.000000       0.09775      0.00955
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:54  8.813 sec   42881 obs/sec 3.00000          3 341766.000000       0.09731      0.00947
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:56 11.346 sec   43581 obs/sec 4.00000          4 455688.000000       0.09738      0.00948
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:59 13.880 sec   44005 obs/sec 5.00000          5 569610.000000       0.09728      0.00946
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:01 16.439 sec   44224 obs/sec 6.00000          6 683532.000000       0.09739      0.00948
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:04 18.935 sec   44540 obs/sec 7.00000          7 797454.000000       0.09715      0.00944
+11-11 19:34:06.954 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:06 21.409 sec   44829 obs/sec 8.00000          8 911376.000000       0.09907      0.00981
+11-11 19:34:06.955 192.168.231.1:54321   15676  FJ-1-7    INFO: Time taken for scoring and diagnostics:  0.048 sec
+11-11 19:34:09.493 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring the auto-encoder.
+11-11 19:34:09.539 192.168.231.1:54321   15676  FJ-1-7    INFO: Computing variable importances.
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO: Model Metrics Type: AutoEncoder
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:  Description: N/A
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:  model id: DeepLearning_model_1510425192993_1
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:  frame id: train_unsupervised.temporary.sample.8.78%
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:  MSE: 0.009516357
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:  RMSE: 0.097551815
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO: Variable Importances:
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:         Variable Relative Importance Scaled Importance Percentage
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr2            1.000000          1.000000   0.119887
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:              V24            0.738409          0.738409   0.088526
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr1            0.722719          0.722719   0.086645
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr4            0.619885          0.619885   0.074316
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr3            0.579592          0.579592   0.069486
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:               V4            0.416674          0.416674   0.049954
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:           Amount            0.278586          0.278586   0.033399
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:               V2            0.224155          0.224155   0.026873
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:               V7            0.222854          0.222854   0.026717
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:              V16            0.210788          0.210788   0.025271
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO: ---
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:              V20            0.141681          0.141681   0.016986
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:              V27            0.136232          0.136232   0.016332
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:               V3            0.130400          0.130400   0.015633
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:              V18            0.100760          0.100760   0.012080
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:              V11            0.093448          0.093448   0.011203
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:              V28            0.088198          0.088198   0.010574
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:              V17            0.070629          0.070629   0.008468
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:              V22            0.062677          0.062677   0.007514
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:              V15            0.048861          0.048861   0.005858
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO: Time.missing(NA)            0.000000          0.000000   0.000000
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO: Status of Neuron Layers (auto-encoder, gaussian distribution, Quadratic loss, 776 weights/biases, 16.2 KB, 1,025,298 training samples, mini-batch size 1):
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:  Layer Units  Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:      1    34 Input  0.00 %                                                                                        
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:      2    10  Tanh       0 0.000000 0.000000  0.904538 0.194752 0.000000   -0.004342   0.302974 -0.067799 0.397013
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:      3     2  Tanh       0 0.000000 0.000000  0.097557 0.120867 0.000000    0.008810   0.523644  0.198279 0.011757
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:      4    10  Tanh       0 0.000000 0.000000  0.036269 0.048234 0.000000    0.054620   0.264808  0.076039 0.242187
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:      5    34  Tanh         0.000000 0.000000  0.262756 0.338064 0.000000    0.049841   0.596556  0.003738 0.241353
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring History:
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:            Timestamp   Duration  Training Speed  Epochs Iterations        Samples Training RMSE Training MSE
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:46  0.700 sec 0.00000 obs/sec 0.00000          0       0.000000       0.18799      0.03534
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:48  3.446 sec   42208 obs/sec 1.00000          1  113922.000000       0.09755      0.00952
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:51  6.178 sec   42334 obs/sec 2.00000          2  227844.000000       0.09775      0.00955
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:54  8.813 sec   42881 obs/sec 3.00000          3  341766.000000       0.09731      0.00947
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:56 11.346 sec   43581 obs/sec 4.00000          4  455688.000000       0.09738      0.00948
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:59 13.880 sec   44005 obs/sec 5.00000          5  569610.000000       0.09728      0.00946
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:01 16.439 sec   44224 obs/sec 6.00000          6  683532.000000       0.09739      0.00948
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:04 18.935 sec   44540 obs/sec 7.00000          7  797454.000000       0.09715      0.00944
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:06 21.409 sec   44829 obs/sec 8.00000          8  911376.000000       0.09907      0.00981
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:09 23.995 sec   44833 obs/sec 9.00000          9 1025298.000000       0.09755      0.00952
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO: Time taken for scoring and diagnostics:  0.047 sec
+11-11 19:34:09.541 192.168.231.1:54321   15676  FJ-1-7    INFO: Training time: 23.997 sec (scoring:  0.555 sec). Processed 1,025,298 samples (9.000 epochs).
+11-11 19:34:09.542 192.168.231.1:54321   15676  FJ-1-7    INFO: Iterations: 9. Epochs: 9.00000. Speed: 44,831 samples/sec. Estimated time left:  4 min  2.636 sec
+11-11 19:34:12.050 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring the auto-encoder.
+11-11 19:34:12.098 192.168.231.1:54321   15676  FJ-1-7    INFO: Computing variable importances.
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO: Model Metrics Type: AutoEncoder
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:  Description: N/A
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:  model id: DeepLearning_model_1510425192993_1
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:  frame id: train_unsupervised.temporary.sample.8.78%
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:  MSE: 0.009443873
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:  RMSE: 0.097179584
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO: Variable Importances:
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:         Variable Relative Importance Scaled Importance Percentage
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr2            1.000000          1.000000   0.113481
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:              V24            0.834334          0.834334   0.094681
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr1            0.766547          0.766547   0.086988
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr4            0.590352          0.590352   0.066993
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr3            0.573546          0.573546   0.065086
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:               V4            0.499301          0.499301   0.056661
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:           Amount            0.313681          0.313681   0.035597
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:               V1            0.263479          0.263479   0.029900
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:              V26            0.258177          0.258177   0.029298
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:               V2            0.241266          0.241266   0.027379
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO: ---
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:              V14            0.143399          0.143399   0.016273
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:               V9            0.142787          0.142787   0.016204
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:              V27            0.138728          0.138728   0.015743
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:              V17            0.094858          0.094858   0.010764
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:              V28            0.093549          0.093549   0.010616
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:              V18            0.093029          0.093029   0.010557
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:              V11            0.089415          0.089415   0.010147
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:              V22            0.061848          0.061848   0.007019
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:              V15            0.049252          0.049252   0.005589
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO: Time.missing(NA)            0.000000          0.000000   0.000000
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO: Status of Neuron Layers (auto-encoder, gaussian distribution, Quadratic loss, 776 weights/biases, 16.2 KB, 1,139,220 training samples, mini-batch size 1):
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:  Layer Units  Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:      1    34 Input  0.00 %                                                                                        
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:      2    10  Tanh       0 0.000000 0.000000  0.766539 0.284692 0.000000   -0.004363   0.315939 -0.106633 0.432892
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:      3     2  Tanh       0 0.000000 0.000000  0.053224 0.038665 0.000000    0.014585   0.524369  0.198250 0.013480
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:      4    10  Tanh       0 0.000000 0.000000  0.035248 0.047194 0.000000    0.037080   0.258642  0.081043 0.246290
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:      5    34  Tanh         0.000000 0.000000  0.223946 0.271692 0.000000    0.047833   0.587910 -0.002441 0.255161
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring History:
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:            Timestamp   Duration  Training Speed   Epochs Iterations        Samples Training RMSE Training MSE
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:46  0.700 sec 0.00000 obs/sec  0.00000          0       0.000000       0.18799      0.03534
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:48  3.446 sec   42208 obs/sec  1.00000          1  113922.000000       0.09755      0.00952
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:51  6.178 sec   42334 obs/sec  2.00000          2  227844.000000       0.09775      0.00955
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:54  8.813 sec   42881 obs/sec  3.00000          3  341766.000000       0.09731      0.00947
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:56 11.346 sec   43581 obs/sec  4.00000          4  455688.000000       0.09738      0.00948
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:59 13.880 sec   44005 obs/sec  5.00000          5  569610.000000       0.09728      0.00946
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:01 16.439 sec   44224 obs/sec  6.00000          6  683532.000000       0.09739      0.00948
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:04 18.935 sec   44540 obs/sec  7.00000          7  797454.000000       0.09715      0.00944
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:06 21.409 sec   44829 obs/sec  8.00000          8  911376.000000       0.09907      0.00981
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:09 23.995 sec   44833 obs/sec  9.00000          9 1025298.000000       0.09755      0.00952
+11-11 19:34:12.100 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:12 26.554 sec   44886 obs/sec 10.00000         10 1139220.000000       0.09718      0.00944
+11-11 19:34:12.101 192.168.231.1:54321   15676  FJ-1-7    INFO: Windowed averages (window size 5) of model's last 6 MSE metrics: [0.009497243377277914, 0.009490851372600416, 0.009467685580192594, 0.009536461116692008, 0.009543251497176839, 0.009539359202913263]
+11-11 19:34:12.101 192.168.231.1:54321   15676  FJ-1-7    INFO: Checking convergence with MSE metric: 0.009497243377277914 --> 0.009467685580192594 (still improving).
+11-11 19:34:12.101 192.168.231.1:54321   15676  FJ-1-7    INFO: Time taken for scoring and diagnostics:  0.048 sec
+11-11 19:34:14.712 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring the auto-encoder.
+11-11 19:34:14.765 192.168.231.1:54321   15676  FJ-1-7    INFO: Computing variable importances.
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO: Model Metrics Type: AutoEncoder
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:  Description: N/A
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:  model id: DeepLearning_model_1510425192993_1
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:  frame id: train_unsupervised.temporary.sample.8.78%
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:  MSE: 0.009493044
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:  RMSE: 0.09743225
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO: Variable Importances:
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:         Variable Relative Importance Scaled Importance Percentage
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr2            1.000000          1.000000   0.111518
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:              V24            0.833649          0.833649   0.092967
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr1            0.800138          0.800138   0.089230
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr4            0.588744          0.588744   0.065656
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr3            0.554643          0.554643   0.061853
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:               V4            0.517788          0.517788   0.057743
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:           Amount            0.344519          0.344519   0.038420
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:              V26            0.313191          0.313191   0.034926
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:               V1            0.305917          0.305917   0.034115
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:               V7            0.245056          0.245056   0.027328
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO: ---
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:               V9            0.131178          0.131178   0.014629
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:              V17            0.117278          0.117278   0.013079
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:              V14            0.117077          0.117077   0.013056
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:              V19            0.102383          0.102383   0.011418
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:              V28            0.096657          0.096657   0.010779
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:              V11            0.090695          0.090695   0.010114
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:              V18            0.089868          0.089868   0.010022
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:              V22            0.066887          0.066887   0.007459
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:              V15            0.053822          0.053822   0.006002
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO: Time.missing(NA)            0.000000          0.000000   0.000000
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO: Status of Neuron Layers (auto-encoder, gaussian distribution, Quadratic loss, 776 weights/biases, 16.2 KB, 1,253,142 training samples, mini-batch size 1):
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:  Layer Units  Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:      1    34 Input  0.00 %                                                                                        
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:      2    10  Tanh       0 0.000000 0.000000  0.857847 0.225441 0.000000   -0.004693   0.325237 -0.132119 0.467264
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:      3     2  Tanh       0 0.000000 0.000000  0.065109 0.067125 0.000000    0.015713   0.525039  0.228007 0.014357
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:      4    10  Tanh       0 0.000000 0.000000  0.035935 0.047559 0.000000    0.019120   0.252616  0.086876 0.250357
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:      5    34  Tanh         0.000000 0.000000  0.260981 0.282179 0.000000    0.043806   0.571681 -0.004342 0.271589
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring History:
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:            Timestamp   Duration  Training Speed   Epochs Iterations        Samples Training RMSE Training MSE
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:46  0.700 sec 0.00000 obs/sec  0.00000          0       0.000000       0.18799      0.03534
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:48  3.446 sec   42208 obs/sec  1.00000          1  113922.000000       0.09755      0.00952
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:51  6.178 sec   42334 obs/sec  2.00000          2  227844.000000       0.09775      0.00955
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:54  8.813 sec   42881 obs/sec  3.00000          3  341766.000000       0.09731      0.00947
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:56 11.346 sec   43581 obs/sec  4.00000          4  455688.000000       0.09738      0.00948
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:59 13.880 sec   44005 obs/sec  5.00000          5  569610.000000       0.09728      0.00946
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:01 16.439 sec   44224 obs/sec  6.00000          6  683532.000000       0.09739      0.00948
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:04 18.935 sec   44540 obs/sec  7.00000          7  797454.000000       0.09715      0.00944
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:06 21.409 sec   44829 obs/sec  8.00000          8  911376.000000       0.09907      0.00981
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:09 23.995 sec   44833 obs/sec  9.00000          9 1025298.000000       0.09755      0.00952
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:12 26.554 sec   44886 obs/sec 10.00000         10 1139220.000000       0.09718      0.00944
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:14 29.221 sec   44764 obs/sec 11.00000         11 1253142.000000       0.09743      0.00949
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO: Windowed averages (window size 5) of model's last 6 MSE metrics: [0.009490851372600416, 0.009467685580192594, 0.009536461116692008, 0.009543251497176839, 0.009539359202913263, 0.00954113666885416]
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO: Checking convergence with MSE metric: 0.009490851372600416 --> 0.009467685580192594 (still improving).
+11-11 19:34:14.767 192.168.231.1:54321   15676  FJ-1-7    INFO: Time taken for scoring and diagnostics:  0.053 sec
+11-11 19:34:14.768 192.168.231.1:54321   15676  FJ-1-7    INFO: Training time: 29.223 sec (scoring:  0.656 sec). Processed 1,253,142 samples (11.000 epochs).
+11-11 19:34:14.768 192.168.231.1:54321   15676  FJ-1-7    INFO: Iterations: 11. Epochs: 11.0000. Speed: 44,763 samples/sec. Estimated time left:  3 min 56.440 sec
+11-11 19:34:17.507 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring the auto-encoder.
+11-11 19:34:17.555 192.168.231.1:54321   15676  FJ-1-7    INFO: Computing variable importances.
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO: Model Metrics Type: AutoEncoder
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:  Description: N/A
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:  model id: DeepLearning_model_1510425192993_1
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:  frame id: train_unsupervised.temporary.sample.8.78%
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:  MSE: 0.00947333
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:  RMSE: 0.09733103
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO: Variable Importances:
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:         Variable Relative Importance Scaled Importance Percentage
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr2            1.000000          1.000000   0.112045
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr1            0.811001          0.811001   0.090869
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:              V24            0.804931          0.804931   0.090189
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr3            0.571450          0.571450   0.064028
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr4            0.550758          0.550758   0.061710
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:               V4            0.514218          0.514218   0.057616
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:           Amount            0.362045          0.362045   0.040565
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:              V26            0.341232          0.341232   0.038233
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:               V1            0.331109          0.331109   0.037099
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:               V7            0.244290          0.244290   0.027372
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO: ---
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:              V12            0.121145          0.121145   0.013574
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:               V9            0.115971          0.115971   0.012994
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:              V14            0.113520          0.113520   0.012719
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:              V28            0.091411          0.091411   0.010242
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:              V18            0.089686          0.089686   0.010049
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:              V11            0.089422          0.089422   0.010019
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:              V22            0.076098          0.076098   0.008526
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:              V15            0.071834          0.071834   0.008049
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:              V19            0.068783          0.068783   0.007707
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO: Time.missing(NA)            0.000000          0.000000   0.000000
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO: Status of Neuron Layers (auto-encoder, gaussian distribution, Quadratic loss, 776 weights/biases, 16.2 KB, 1,367,064 training samples, mini-batch size 1):
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:  Layer Units  Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:      1    34 Input  0.00 %                                                                                        
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:      2    10  Tanh       0 0.000000 0.000000  0.863385 0.211098 0.000000   -0.004650   0.336102 -0.148753 0.488996
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:      3     2  Tanh       0 0.000000 0.000000  0.077996 0.067076 0.000000    0.025693   0.525234  0.261159 0.025394
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:      4    10  Tanh       0 0.000000 0.000000  0.036359 0.039889 0.000000   -0.000822   0.247115  0.097847 0.257493
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:      5    34  Tanh         0.000000 0.000000  0.306976 0.343780 0.000000    0.034227   0.551018 -0.010900 0.301253
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring History:
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:            Timestamp   Duration  Training Speed   Epochs Iterations        Samples Training RMSE Training MSE
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:46  0.700 sec 0.00000 obs/sec  0.00000          0       0.000000       0.18799      0.03534
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:48  3.446 sec   42208 obs/sec  1.00000          1  113922.000000       0.09755      0.00952
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:51  6.178 sec   42334 obs/sec  2.00000          2  227844.000000       0.09775      0.00955
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:54  8.813 sec   42881 obs/sec  3.00000          3  341766.000000       0.09731      0.00947
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:56 11.346 sec   43581 obs/sec  4.00000          4  455688.000000       0.09738      0.00948
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:59 13.880 sec   44005 obs/sec  5.00000          5  569610.000000       0.09728      0.00946
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:01 16.439 sec   44224 obs/sec  6.00000          6  683532.000000       0.09739      0.00948
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:04 18.935 sec   44540 obs/sec  7.00000          7  797454.000000       0.09715      0.00944
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:06 21.409 sec   44829 obs/sec  8.00000          8  911376.000000       0.09907      0.00981
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:09 23.995 sec   44833 obs/sec  9.00000          9 1025298.000000       0.09755      0.00952
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:12 26.554 sec   44886 obs/sec 10.00000         10 1139220.000000       0.09718      0.00944
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:14 29.221 sec   44764 obs/sec 11.00000         11 1253142.000000       0.09743      0.00949
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:17 32.012 sec   44477 obs/sec 12.00000         12 1367064.000000       0.09733      0.00947
+11-11 19:34:17.558 192.168.231.1:54321   15676  FJ-1-7    INFO: Windowed averages (window size 5) of model's last 6 MSE metrics: [0.009467685580192594, 0.009536461116692008, 0.009543251497176839, 0.009539359202913263, 0.00954113666885416, 0.009548097268471207]
+11-11 19:34:17.559 192.168.231.1:54321   15676  FJ-1-7    INFO: Checking convergence with MSE metric: 0.009467685580192594 --> 0.009536461116692008 (converged).
+11-11 19:34:17.559 192.168.231.1:54321   15676  FJ-1-7    INFO: Convergence detected based on simple moving average of the loss function for the past 5 scoring events. Model building completed.
+11-11 19:34:17.559 192.168.231.1:54321   15676  FJ-1-7    INFO: Time taken for scoring and diagnostics:  0.049 sec
+11-11 19:34:17.559 192.168.231.1:54321   15676  FJ-1-7    INFO: Setting the model to be the best model so far (based on scoring history).
+11-11 19:34:17.559 192.168.231.1:54321   15676  FJ-1-7    INFO: Best model's loss: 0.009438527 vs this model's loss (before overwriting it with the best model): 0.00947333
+11-11 19:34:17.561 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring the auto-encoder.
+11-11 19:34:17.608 192.168.231.1:54321   15676  FJ-1-7    INFO: Computing variable importances.
+11-11 19:34:17.609 192.168.231.1:54321   15676  FJ-1-7    INFO: ==============================================================================================================================================================================
+11-11 19:34:17.609 192.168.231.1:54321   15676  FJ-1-7    INFO: Finished training the Deep Learning model.
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO: Model Metrics Type: AutoEncoder
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:  Description: N/A
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:  model id: DeepLearning_model_1510425192993_1
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:  frame id: train_unsupervised.temporary.sample.8.78%
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:  MSE: 0.009438527
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:  RMSE: 0.097152084
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO: Variable Importances:
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:         Variable Relative Importance Scaled Importance Percentage
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr2            1.000000          1.000000   0.133805
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr1            0.686579          0.686579   0.091868
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr3            0.610064          0.610064   0.081629
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:         Time.gr4            0.605089          0.605089   0.080964
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:              V24            0.418085          0.418085   0.055942
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:               V4            0.265991          0.265991   0.035591
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:           Amount            0.217328          0.217328   0.029080
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:               V7            0.206387          0.206387   0.027616
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:               V8            0.200957          0.200957   0.026889
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:               V2            0.198026          0.198026   0.026497
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO: ---
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:              V20            0.125732          0.125732   0.016824
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:              V18            0.107836          0.107836   0.014429
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:              V11            0.098623          0.098623   0.013196
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:              V26            0.093022          0.093022   0.012447
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:              V28            0.087663          0.087663   0.011730
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:              V17            0.079553          0.079553   0.010645
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:               V3            0.074871          0.074871   0.010018
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:              V22            0.064635          0.064635   0.008649
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:              V15            0.043286          0.043286   0.005792
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO: Time.missing(NA)            0.000000          0.000000   0.000000
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO: Status of Neuron Layers (auto-encoder, gaussian distribution, Quadratic loss, 776 weights/biases, 16.2 KB, 1,367,064 training samples, mini-batch size 1):
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:  Layer Units  Type Dropout       L1       L2 Mean Rate Rate RMS Momentum Mean Weight Weight RMS Mean Bias Bias RMS
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:      1    34 Input  0.00 %                                                                                        
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:      2    10  Tanh       0 0.000000 0.000000  0.899498 0.189901 0.000000   -0.005009   0.280941 -0.033432 0.304516
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:      3     2  Tanh       0 0.000000 0.000000  0.122949 0.101920 0.000000   -0.002382   0.517276  0.200086 0.022898
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:      4    10  Tanh       0 0.000000 0.000000  0.026635 0.036656 0.000000    0.085017   0.273632  0.072331 0.241935
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:      5    34  Tanh         0.000000 0.000000  0.193882 0.264356 0.000000    0.055087   0.621250  0.003309 0.235843
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO: Scoring History:
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:            Timestamp   Duration  Training Speed   Epochs Iterations        Samples Training RMSE Training MSE
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:46  0.700 sec 0.00000 obs/sec  0.00000          0       0.000000       0.18799      0.03534
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:48  3.446 sec   42208 obs/sec  1.00000          1  113922.000000       0.09755      0.00952
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:51  6.178 sec   42334 obs/sec  2.00000          2  227844.000000       0.09775      0.00955
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:54  8.813 sec   42881 obs/sec  3.00000          3  341766.000000       0.09731      0.00947
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:56 11.346 sec   43581 obs/sec  4.00000          4  455688.000000       0.09738      0.00948
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:33:59 13.880 sec   44005 obs/sec  5.00000          5  569610.000000       0.09728      0.00946
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:01 16.439 sec   44224 obs/sec  6.00000          6  683532.000000       0.09739      0.00948
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:04 18.935 sec   44540 obs/sec  7.00000          7  797454.000000       0.09715      0.00944
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:06 21.409 sec   44829 obs/sec  8.00000          8  911376.000000       0.09907      0.00981
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:09 23.995 sec   44833 obs/sec  9.00000          9 1025298.000000       0.09755      0.00952
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:12 26.554 sec   44886 obs/sec 10.00000         10 1139220.000000       0.09718      0.00944
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:14 29.221 sec   44764 obs/sec 11.00000         11 1253142.000000       0.09743      0.00949
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:17 32.012 sec   44477 obs/sec 12.00000         12 1367064.000000       0.09733      0.00947
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO:  2017-11-11 19:34:17 32.064 sec   44471 obs/sec 12.00000         12 1367064.000000       0.09715      0.00944
+11-11 19:34:17.610 192.168.231.1:54321   15676  FJ-1-7    INFO: ==============================================================================================================================================================================
