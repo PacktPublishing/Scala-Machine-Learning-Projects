@@ -42,7 +42,7 @@ class LDAforTM() {
     .appName(s"OneVsRestExample")
     .getOrCreate()
 
-  def run(params: Params): Unit = {
+  def run(params: Params, flag:Boolean): Unit = {
     Logger.getRootLogger.setLevel(Level.WARN)
 
     // Load documents, and prepare them for LDA.
@@ -92,7 +92,8 @@ class LDAforTM() {
     val elapsed = (System.nanoTime() - startTime) / 1e9
         
     //Saving the model for future use
-    params.ldaModel.save(spark.sparkContext, "model/LDATrainedModel")
+    if(flag == true)
+      params.ldaModel.save(spark.sparkContext, "model/LDATrainedModel")   
 
     println("Finished training LDA model.  Summary:")
     println("Training time: " + elapsed + " sec")
